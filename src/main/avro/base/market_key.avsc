@@ -2,8 +2,10 @@
   "type": "record",
   "name": "MarketKey",
   "namespace": "no.penger.export.domain",
-  "fields": [{
-    "name": "key",
-    "type": "string"
-  }]
+  "fields": [
+    {
+      "name": "key",
+      "type": "string"
+    }
+  ]
 }
