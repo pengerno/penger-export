@@ -1,0 +1,6 @@
+{
+  "type": "enum",
+  "name": "Gender",
+  "namespace": "no.penger.export.domain",
+  "symbols": ["FEMALE", "MALE", "UNKNOWN"]
+}

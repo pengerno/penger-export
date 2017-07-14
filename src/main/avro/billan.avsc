@@ -1,0 +1,113 @@
+{
+  "type": "record",
+  "name": "Billan",
+  "namespace": "no.penger.export",
+  "fields": [
+    {
+      "name": "customerReference",
+      "type": "string"
+    },
+    {
+      "name": "profiles",
+      "type": {
+        "type": "array",
+        "items": "no.penger.export.domain.Profile"
+      }
+    },
+    {
+      "name": "union",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "price",
+      "type": "no.penger.export.domain.Money"
+    },
+    {
+      "name": "repaymentYears",
+      "type": "int"
+    },
+    {
+      "name": "freeCapital",
+      "type": "no.penger.export.domain.Money"
+    },
+    {
+      "name": "bildata",
+      "type": ["null", {
+        "type": "record",
+        "name": "BilData",
+        "namespace": "no.penger.export",
+        "fields": [
+          {
+            "name": "finnkode",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          {
+            "name": "regnr",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          {
+            "name": "horsePower",
+            "type": [
+              "null",
+              "int"
+            ]
+          },
+          {
+            "name": "mileage",
+            "type": [
+              "null",
+              "int"
+            ]
+          },
+          {
+            "name": "emissions",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          {
+            "name": "salesType",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          {
+            "name": "modelYear",
+            "type": [
+              "null",
+              "int"
+            ]
+          },
+          {
+            "name": "brand",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          {
+            "name": "model",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        ]
+      }
+        ]
+    }
+  ]
+}

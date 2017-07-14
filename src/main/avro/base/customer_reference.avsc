@@ -1,0 +1,9 @@
+{
+	"type": "record",
+	"name": "CustomerReference",
+	"namespace": "no.penger.export.domain",
+	"fields": [{
+		"name": "ref",
+		"type": "string"
+	}]
+}

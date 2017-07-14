@@ -1,0 +1,116 @@
+{
+  "type": "record",
+  "name": "Profile",
+  "namespace": "no.penger.export.domain",
+  "fields": [{
+    "name": "name",
+    "type": ["null", "string"]
+  }, {
+    "name": "surname",
+    "type": ["null", "string"]
+  }, {
+    "name": "role",
+    "type": {
+      "type": "enum",
+      "name": "Role",
+      "symbols": ["APPLICANT", "CO_APPLICANT", "HOUSEHOLD_MEMBER", "UNKNOWN"]
+    }
+  }, {
+    "name": "birthDate",
+    "type": ["null", "string"]
+  }, {
+    "name": "ssn",
+    "type": ["null", "string"]
+  }, {
+    "name": "gender",
+    "type": "Gender"
+  }, {
+    "name": "email",
+    "type": ["null", "string"]
+  }, {
+    "name": "address",
+    "type": ["null", "string"]
+  }, {
+    "name": "postalcode",
+    "type": ["null", "string"]
+  }, {
+    "name": "phone",
+    "type": ["null", "string"]
+  }, {
+    "name": "cars",
+    "type": "int"
+  },
+    {
+      "name": "housing",
+      "type": ["null", "string"]
+    },
+    {
+    "name": "children",
+    "type": {
+      "type": "array",
+      "items": "no.penger.export.domain.Child"
+    }
+  }, {
+    "name": "income",
+    "type": {
+      "type": "array",
+      "items": {
+        "type": "record",
+        "name": "Income",
+        "fields": [{
+          "name": "key",
+          "type": {
+            "type": "enum",
+            "name": "IncomeKey",
+            "symbols": ["Arbeidstaker", "SelvstendigNaering", "Midlertidig", "Pensjonist", "Student", "SkattefrieLeieinntekter", "NaeringsInntekter", "OvrigeInntekter", "Uspesifisert"]
+          }
+        }, {
+          "name": "annualGross",
+          "type": "no.penger.export.domain.Money"
+        }, {
+          "name": "employer",
+          "type": ["null", "string"],
+          "default": null
+        }, {
+          "name": "employedForYears",
+          "type": ["null", "int"],
+          "default": null
+        }, {
+          "name": "displayValue",
+          "type": "string"
+        }]
+      }
+    }
+  }, {
+    "name": "debt",
+    "type": {
+      "type": "array",
+      "items": {
+        "type": "record",
+        "name": "Debt",
+        "fields": [{
+          "name": "key",
+          "type": {
+            "type": "enum",
+            "name": "DebtKey",
+            "symbols": ["Totalgjeld"]
+          }
+        }, {
+          "name": "amount",
+          "type": "no.penger.export.domain.Money"
+        }, {
+          "name": "interest",
+          "type": ["null", "double"],
+          "default": null
+        }, {
+          "name": "yearsRemaining",
+          "type": ["null", "int"],
+          "default": null
+        }, {
+          "name": "displayValue",
+          "type": "string"
+        }]
+      }
+    }
+  }]
+}
