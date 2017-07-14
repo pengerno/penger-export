@@ -2,6 +2,7 @@
   "type": "record",
   "name": "Billan",
   "namespace": "no.penger.export",
+  "doc": "All informasjon på billånssøknad",
   "fields": [
     {
       "name": "customerReference",
@@ -9,6 +10,7 @@
     },
     {
       "name": "profiles",
+      "doc": "Informasjon om låntaker, medlåntaker og andre medlemmer av husholdningen",
       "type": {
         "type": "array",
         "items": "no.penger.export.domain.Profile"
