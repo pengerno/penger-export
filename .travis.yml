@@ -25,7 +25,7 @@ before_cache:
   - find $HOME/.sbt -name "*.lock" -delete
 
 script:
-  - sbt ++$TRAVIS_SCALA_VERSION test
+  - sbt ++$TRAVIS_SCALA_VERSION compile
 
 notifications:
   slack: sch-chat:k2TTtqzUaUYUi6tBBoh34E7Y
