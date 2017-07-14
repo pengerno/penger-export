@@ -81,10 +81,18 @@
       "type": "int"
     },
     {
-      "name": "housing",
+      "name": "boforhold",
       "type": [
         "null",
-        "string"
+        {
+          "type": "enum",
+          "name": "Boforhold",
+          "symbols": [
+            "EIER",
+            "LEIER",
+            "ANNET"
+          ]
+        }
       ]
     },
     {
