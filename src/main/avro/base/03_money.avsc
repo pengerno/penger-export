@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Money",
+  "namespace": "no.penger.export.domain",
+  "fields": [{
+    "name": "value",
+    "type": "double"
+  }, {
+    "name": "displayValue",
+    "type": "string"
+  }]
+}

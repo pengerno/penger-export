@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "ProductKey",
+  "namespace": "no.penger.export.domain",
+  "fields": [{
+    "name": "key",
+    "type": "string"
+  }]
+}
