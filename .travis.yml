@@ -1,0 +1,31 @@
+sudo: false
+
+language: scala
+
+scala:
+   - 2.12.2
+
+jdk:
+  - oraclejdk8
+
+env:
+  matrix:
+  - COURSIER_CACHE=$TRAVIS_BUILD_DIR/project/.ivy/coursier
+
+cache:
+  directories:
+    - $HOME/.ivy2/cache
+    - $HOME/.sbt/boot/
+    - project/.ivy
+    - project/.boot
+
+before_cache:
+  # Tricks to avoid unnecessary cache updates
+  - find $HOME/.ivy2 -name "ivydata-*.properties" -delete
+  - find $HOME/.sbt -name "*.lock" -delete
+
+script:
+  - sbt ++$TRAVIS_SCALA_VERSION test
+
+notifications:
+  slack: sch-chat:k2TTtqzUaUYUi6tBBoh34E7Y
