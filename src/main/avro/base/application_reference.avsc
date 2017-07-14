@@ -2,8 +2,10 @@
 	"type": "record",
 	"name": "ApplicationReference",
 	"namespace": "no.penger.export.domain",
-	"fields": [{
-		"name": "ref",
-		"type": "string"
-	}]
+	"fields": [
+		{
+			"name": "ref",
+			"type": "string"
+		}
+	]
 }
