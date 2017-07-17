@@ -82,18 +82,15 @@
     },
     {
       "name": "boforhold",
-      "type": [
-        "null",
-        {
-          "type": "enum",
-          "name": "Boforhold",
-          "symbols": [
-            "EIER",
-            "LEIER",
-            "ANNET"
-          ]
-        }
-      ]
+      "type": {
+        "type": "enum",
+        "name": "Boforhold",
+        "symbols": [
+          "EIER",
+          "LEIER",
+          "ANNET"
+        ]
+      }
     },
     {
       "name": "children",

@@ -12,10 +12,7 @@
     },
     {
       "name": "gender",
-      "type": [
-        "null",
-        "Gender"
-      ]
+      "type": "Gender"
     }
   ]
 }
