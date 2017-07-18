@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "Boligdata",
+  "namespace": "no.penger.export.domain",
+  "fields": [
+    {
+      "name": "adresse",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "postnummer",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "fellesgjeld",
+      "type": ["null", "no.penger.export.domain.Money"]
+    },
+    {
+      "name": "husleieFelleskostnader",
+      "type": ["null", "no.penger.export.domain.Money"]
+    },
+    {
+      "name": "verdi",
+      "type": ["null", "no.penger.export.domain.Money"]
+    }
+  ]
+}

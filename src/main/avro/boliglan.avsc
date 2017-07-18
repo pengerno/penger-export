@@ -1,0 +1,52 @@
+{
+  "type": "record",
+  "name": "Boliglan",
+  "namespace": "no.penger.export",
+  "doc": "All informasjon om boligsøknaden",
+  "fields": [
+    {
+      "name": "kundereferanse",
+      "type": "string"
+    },
+    {
+      "name": "profiler",
+      "type": {
+        "type": "array",
+        "items": "no.penger.export.domain.Profile"
+      }
+    },
+    {
+      "name": "nedbetalingstid",
+      "type": "int"
+    },
+    {
+      "name": "egenkapital",
+      "type": "no.penger.export.domain.Money"
+    },
+    {
+      "name": "laanesum",
+      "type": "no.penger.export.domain.Money"
+    },
+    {
+      "name": "medlemsforeninger",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "laanetype",
+      "type": "string"
+    },
+    {
+      "name": "eiendom",
+      "type": ["null", "no.penger.export.domain.Boligdata"]
+    },
+    {
+      "name": "sikkerheteiendom",
+      "type": ["null", "no.penger.export.domain.Boligdata"]
+    }
+  ]
+}
