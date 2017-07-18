@@ -93,6 +93,21 @@
       }
     },
     {
+      "name": "sivilstatus",
+      "type": {
+        "type": "enum",
+        "name": "SivilStatus",
+        "symbols": [
+          "GIFT",
+          "SAMBOER",
+          "ENSLIG",
+          "SEPARERT",
+          "ENKE_ENKEMANN",
+          "UKJENT"
+        ]
+      }
+    },
+    {
       "name": "children",
       "type": {
         "type": "array",
