@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "OfferId",
+  "namespace": "no.penger.export.admin",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "revision",
+      "type": "long"
+    }
+  ]
+}

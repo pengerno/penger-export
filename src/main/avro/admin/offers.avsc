@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "Offers",
+  "namespace": "no.penger.export.admin",
+  "fields": [
+    {
+      "name": "offers",
+      "type":
+        {
+          "type": "array",
+          "items": "no.penger.export.admin.Offer"
+        }
+    }
+  ]
+}

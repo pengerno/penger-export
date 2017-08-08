@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "Providers",
+  "namespace": "no.penger.export.admin",
+  "fields": [
+    {
+      "name": "providers",
+      "type":
+      {
+        "type": "array",
+        "items": "no.penger.export.admin.Provider"
+      }
+    }
+  ]
+}
