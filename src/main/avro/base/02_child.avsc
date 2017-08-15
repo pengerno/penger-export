@@ -1,18 +1,18 @@
 {
   "type": "record",
-  "name": "Child",
+  "name": "Barn",
   "namespace": "no.penger.export.domain",
   "fields": [
     {
-      "name": "age",
+      "name": "alder",
       "type": [
         "null",
         "int"
       ]
     },
     {
-      "name": "gender",
-      "type": "Gender"
+      "name": "kjonn",
+      "type": "Kjonn"
     }
   ]
 }

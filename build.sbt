@@ -9,6 +9,8 @@ description := "Exported models from Penger.no"
 
 scalaVersion := "2.12.2"
 
+libraryDependencies ++= Artifacts.dependencies
+
 CompilerFlags.Level2.settings
 
 enablePlugins(PengerConveniencePlugin)

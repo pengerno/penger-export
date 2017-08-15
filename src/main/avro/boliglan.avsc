@@ -12,7 +12,7 @@
       "name": "profiler",
       "type": {
         "type": "array",
-        "items": "no.penger.export.domain.Profile"
+        "items": "no.penger.export.domain.Profil"
       }
     },
     {
@@ -21,11 +21,11 @@
     },
     {
       "name": "egenkapital",
-      "type": "no.penger.export.domain.Money"
+      "type": "no.penger.export.domain.NOK"
     },
     {
       "name": "laanesum",
-      "type": "no.penger.export.domain.Money"
+      "type": "no.penger.export.domain.NOK"
     },
     {
       "name": "medlemsforeninger",

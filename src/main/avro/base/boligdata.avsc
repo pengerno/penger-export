@@ -13,15 +13,15 @@
     },
     {
       "name": "fellesgjeld",
-      "type": ["null", "no.penger.export.domain.Money"]
+      "type": ["null", "no.penger.export.domain.NOK"]
     },
     {
       "name": "husleieFelleskostnader",
-      "type": ["null", "no.penger.export.domain.Money"]
+      "type": ["null", "no.penger.export.domain.NOK"]
     },
     {
       "name": "verdi",
-      "type": ["null", "no.penger.export.domain.Money"]
+      "type": ["null", "no.penger.export.domain.NOK"]
     }
   ]
 }
