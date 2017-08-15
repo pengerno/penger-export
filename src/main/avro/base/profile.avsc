@@ -1,24 +1,25 @@
 {
   "type": "record",
-  "name": "Profile",
+  "name": "Profil",
   "namespace": "no.penger.export.domain",
   "fields": [
     {
-      "name": "name",
+      "name": "fornavn",
       "type": [
         "null",
         "string"
       ]
     },
     {
-      "name": "surname",
+      "name": "etternavn",
       "type": [
         "null",
         "string"
       ]
     },
     {
-      "name": "role",
+      "name": "rolle",
+      "doc": "Rollen til denne personen i husholdningen",
       "type": {
         "type": "enum",
         "name": "Role",
@@ -31,57 +32,59 @@
       }
     },
     {
-      "name": "birthDate",
+      "name": "fodselsdato",
       "type": [
         "null",
         "string"
       ]
     },
     {
-      "name": "ssn",
+      "name": "fodselsnummer",
       "type": [
         "null",
         "string"
       ]
     },
     {
-      "name": "gender",
-      "type": "Gender"
+      "name": "kjonn",
+      "type": "Kjonn"
     },
     {
-      "name": "email",
+      "name": "epost",
       "type": [
         "null",
         "string"
       ]
     },
     {
-      "name": "address",
+      "name": "adresse",
       "type": [
         "null",
         "string"
       ]
     },
     {
-      "name": "postalcode",
+      "name": "postnummer",
       "type": [
         "null",
         "string"
       ]
     },
     {
-      "name": "phone",
+      "name": "mobil",
       "type": [
         "null",
         "string"
       ]
     },
     {
-      "name": "cars",
+      "name": "biler",
+      "doc": "Antall biler denne personen eier",
       "type": "int"
     },
     {
       "name": "boforhold",
+      "doc": "Beskriver boforholdet til denne personen",
       "type": {
         "type": "enum",
         "name": "Boforhold",
@@ -109,25 +112,25 @@
       }
     },
     {
-      "name": "children",
+      "name": "barn",
       "type": {
         "type": "array",
-        "items": "no.penger.export.domain.Child"
+        "items": "no.penger.export.domain.Barn"
       }
     },
     {
-      "name": "income",
+      "name": "inntekt",
       "type": {
         "type": "array",
         "items": {
           "type": "record",
-          "name": "Income",
+          "name": "Inntekt",
           "fields": [
             {
               "name": "key",
               "type": {
                 "type": "enum",
-                "name": "IncomeKey",
+                "name": "InntektKey",
                 "symbols": [
                   "Arbeidstaker",
                   "SelvstendigNaering",
@@ -142,11 +145,12 @@
               }
             },
             {
-              "name": "annualGross",
-              "type": "no.penger.export.domain.Money"
+              "name": "arlig_inntekt",
+              "doc": "Årlig inntekt for denne inntektstypen",
+              "type": "no.penger.export.domain.NOK"
             },
             {
-              "name": "employer",
+              "name": "arbeidsgiver",
               "type": [
                 "null",
                 "string"
@@ -154,7 +158,8 @@
               "default": null
             },
             {
-              "name": "employedForYears",
+              "name": "ansatt_antall_ar",
+              "doc": "Antall år personen har vært ansatt",
               "type": [
                 "null",
                 "int"
@@ -162,7 +167,7 @@
               "default": null
             },
             {
-              "name": "displayValue",
+              "name": "display_value",
               "type": "string"
             }
           ]
@@ -170,29 +175,31 @@
       }
     },
     {
-      "name": "debt",
+      "name": "gjeld",
       "type": {
         "type": "array",
         "items": {
           "type": "record",
-          "name": "Debt",
+          "name": "Gjeld",
           "fields": [
             {
               "name": "key",
               "type": {
                 "type": "enum",
-                "name": "DebtKey",
+                "name": "GjeldKey",
                 "symbols": [
                   "Totalgjeld"
                 ]
               }
             },
             {
-              "name": "amount",
-              "type": "no.penger.export.domain.Money"
+              "name": "belop",
+              "doc": "Størrelse på den resterende gjelden",
+              "type": "no.penger.export.domain.NOK"
             },
             {
-              "name": "interest",
+              "name": "rente",
+              "doc": "Rente på den resterende gjelden",
               "type": [
                 "null",
                 "double"
@@ -200,7 +207,8 @@
               "default": null
             },
             {
-              "name": "yearsRemaining",
+              "name": "gjenstaende_ar",
+              "doc": "Antall år gjenstående på gjelden",
               "type": [
                 "null",
                 "int"
@@ -208,7 +216,7 @@
               "default": null
             },
             {
-              "name": "displayValue",
+              "name": "display_value",
               "type": "string"
             }
           ]

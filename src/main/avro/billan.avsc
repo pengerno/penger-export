@@ -2,43 +2,38 @@
   "type": "record",
   "name": "Billan",
   "namespace": "no.penger.export",
-  "doc": "All informasjon på billånssøknad",
+  "doc": "Informasjon på billånssøknad",
   "fields": [
     {
-      "name": "customerReference",
+      "name": "kundereferanse",
       "type": "string"
     },
     {
-      "name": "profiles",
+      "name": "profiler",
       "doc": "Informasjon om låntaker, medlåntaker og andre medlemmer av husholdningen",
       "type": {
         "type": "array",
-        "items": "no.penger.export.domain.Profile"
+        "items": "no.penger.export.domain.Profil"
       }
     },
     {
-      "name": "union",
-      "type": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      }
+      "name": "pris",
+      "doc": "Kjøpesummen på dette objektet",
+      "type": "no.penger.export.domain.NOK"
     },
     {
-      "name": "price",
-      "type": "no.penger.export.domain.Money"
-    },
-    {
-      "name": "repaymentYears",
+      "name": "nedbetalingstid",
+      "doc": "Nedbetalingstid i antall år",
       "type": "int"
     },
     {
-      "name": "freeCapital",
-      "type": "no.penger.export.domain.Money"
+      "name": "egenkapital",
+      "doc": "Egenkapital låntager stiller til disposisjon",
+      "type": "no.penger.export.domain.NOK"
     },
     {
-      "name": "bildata",
+      "name": "bil_data",
+      "doc": "Detaljert informasjon om bilen, dersom det finnes",
       "type": [
         "null",
         {
@@ -54,56 +49,61 @@
               ]
             },
             {
-              "name": "regnr",
+              "name": "registreringsnummer",
               "type": [
                 "null",
                 "string"
               ]
             },
             {
-              "name": "horsePower",
+              "name": "hestekrefter",
               "type": [
                 "null",
                 "int"
               ]
             },
             {
-              "name": "mileage",
+              "name": "kilometerstand",
               "type": [
                 "null",
                 "int"
               ]
             },
             {
-              "name": "emissions",
+              "name": "utslipp",
               "type": [
                 "null",
                 "string"
               ]
             },
             {
-              "name": "salesType",
-              "type": [
-                "null",
-                "string"
-              ]
+              "name": "salgstype",
+              "type": {
+                "type": "enum",
+                "name": "Salgstype",
+                "symbols": [
+                  "PRIVAT",
+                  "FORHANDLER",
+                  "ANNET"
+                ]
+              }
             },
             {
-              "name": "modelYear",
+              "name": "aarsmodell",
               "type": [
                 "null",
                 "int"
               ]
             },
             {
-              "name": "brand",
+              "name": "merke",
               "type": [
                 "null",
                 "string"
               ]
             },
             {
-              "name": "model",
+              "name": "modell",
               "type": [
                 "null",
                 "string"
