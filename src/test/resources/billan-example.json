@@ -1,0 +1,100 @@
+{
+  "kundereferanse": "X17V7222I8",
+  "profiler": [
+    {
+      "fornavn": {
+        "string": "Ola"
+      },
+      "etternavn": {
+        "string": "Nordmann"
+      },
+      "rolle": "APPLICANT",
+      "fodselsdato": {
+        "string": "1958-08-04"
+      },
+      "fodselsnummer": {
+        "string": "26113644582"
+      },
+      "kjonn": "MANN",
+      "epost": {
+        "string": "ola@eksempel.no"
+      },
+      "adresse": {
+        "string": "Grensen 5-7"
+      },
+      "postnummer": {
+        "string": "2202"
+      },
+      "mobil": {
+        "string": "+4790909090"
+      },
+      "biler": 2,
+      "boforhold": "ANNET",
+      "sivilstatus": "ENKE_ENKEMANN",
+      "barn": [],
+      "inntekt": [
+        {
+          "key": "SelvstendigNaering",
+          "arlig_inntekt": {
+            "verdi": 100000,
+            "display_value": " 100 000"
+          },
+          "ansatt_antall_ar": null,
+          "arbeidsgiver": {
+            "string": "Foobar"
+          },
+          "display_value": "Selvstendig næringsdrivende (ENK)"
+        }
+      ],
+      "gjeld": [
+        {
+          "key": "Totalgjeld",
+          "belop": {
+            "verdi": 10,
+            "display_value": "10"
+          },
+          "rente": null,
+          "gjenstaende_ar": null,
+          "display_value": "Total gjeld"
+
+        }
+      ]
+    }
+  ],
+  "pris": {
+    "verdi": 10,
+    "display_value": "10"
+  },
+  "nedbetalingstid": 10,
+  "egenkapital": {
+    "verdi": 10,
+    "display_value": "10"
+  },
+  "bil_data": {
+    "no.penger.export.BilData": {
+      "finnkode": {
+        "string": "112121"
+      },
+      "registreringsnummer": {
+        "string": "DN12345"
+      },
+      "hestekrefter": {
+        "int": 120
+      },
+      "kilometerstand": {
+        "int": 10000
+      },
+      "utslipp": null,
+      "salgstype": "PRIVAT",
+      "aarsmodell": {
+        "int": 2008
+      },
+      "merke": {
+        "string": "Subaru"
+      },
+      "modell": {
+        "string": "Impreza"
+      }
+    }
+  }
+}

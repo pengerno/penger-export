@@ -1,14 +1,15 @@
 {
   "type": "record",
-  "name": "Money",
+  "name": "NOK",
+  "doc": "Penger i norske kroner",
   "namespace": "no.penger.export.domain",
   "fields": [
     {
-      "name": "value",
+      "name": "verdi",
       "type": "double"
     },
     {
-      "name": "displayValue",
+      "name": "display_value",
       "type": "string"
     }
   ]
