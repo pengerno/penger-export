@@ -7,7 +7,7 @@ name := "export"
 
 description := "Exported models from Penger.no"
 
-scalaVersion := "2.12.2"
+scalaVersion := "2.12.3"
 
 libraryDependencies ++= Artifacts.dependencies
 
