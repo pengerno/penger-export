@@ -2,13 +2,20 @@
 
 ## Why?
 
-Because we have to expose data to external providers. When exposing data we have to describe the data in some way. Since [Avro](https://avro.apache.org/docs/current/) is used internally in FINN for data exchange (Kafka), it seems as a good fit for describing our externally delivered data.
+To provide a versioned and described data format for exchanging data with external entities. Since [Avro](https://avro.apache.org/docs/current/) is used at [FINN](https://www.finn.no) for data exchange, it seems as a good fit for describing our externally delivered data.
 
 ## Features
 
-Avro provides bindings for multiple [languages](https://github.com/apache/avro/tree/master/lang). We could therefore aim to provide an integration library for the commonly most used languages at our providers.
+Top level exported types:
+
+* Billån - `src/main/avro/billan.avsc`
+
+Example data for exported formats:
+
+* Billån - `src/main/test/resources/billan-example.json`
 
 ## TODO:
 
-* Publishes internally now, publish to maven repository (and remove convenience plugin)
-* Add license
+* Publishes internally now, publish to maven repository
+* Example data for Boliglån
+* Bindings: Avro provides bindings for multiple [languages](https://github.com/apache/avro/tree/master/lang). We could therefore aim to provide an integration library for the commonly most used languages at our providers.

@@ -3,7 +3,7 @@ sudo: false
 language: scala
 
 scala:
-   - 2.12.2
+   - 2.12.3
 
 jdk:
   - oraclejdk8
@@ -26,6 +26,3 @@ before_cache:
 
 script:
   - sbt ++$TRAVIS_SCALA_VERSION compile
-
-notifications:
-  slack: sch-chat:k2TTtqzUaUYUi6tBBoh34E7Y
