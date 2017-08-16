@@ -4,7 +4,7 @@ import org.scalatest.FunSuite
 
 class JsonTests extends FunSuite with TestHelpers {
 
-  test("de-serialize serialize billan") {
+  test("ser-des billan") {
 
     import JsonTransform._
 

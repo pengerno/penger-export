@@ -3,27 +3,27 @@
   "profiler": [
     {
       "fornavn": {
-        "string": "Ola"
+        "string": "Kari"
       },
       "etternavn": {
         "string": "Nordmann"
       },
       "rolle": "APPLICANT",
       "fodselsdato": {
-        "string": "1958-08-04"
+        "string": "1985-10-18"
       },
       "fodselsnummer": {
-        "string": "26113644582"
+        "string": "18108532293"
       },
-      "kjonn": "MANN",
+      "kjonn": "KVINNE",
       "epost": {
-        "string": "ola@eksempel.no"
+        "string": "kari@eksempel.no"
       },
       "adresse": {
         "string": "Grensen 5-7"
       },
       "postnummer": {
-        "string": "2202"
+        "string": "0159"
       },
       "mobil": {
         "string": "+4790909090"
