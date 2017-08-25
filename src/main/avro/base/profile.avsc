@@ -176,6 +176,38 @@
       }
     },
     {
+      "name": "utgift",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "Utgift",
+          "fields": [
+            {
+              "name": "key",
+              "type": {
+                "type": "enum",
+                "name": "UtgiftKey",
+                "symbols": [
+                  "Barnebidrag",
+                  "Uspesifisert"
+                ]
+              }
+            },
+            {
+              "name": "arlig_utgift",
+              "doc": "Årlig utgift for denne utgiftstypen",
+              "type": "no.penger.export.domain.NOK"
+            },
+            {
+              "name": "display_value",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    {
       "name": "gjeld",
       "type": {
         "type": "array",
