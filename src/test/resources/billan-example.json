@@ -58,7 +58,8 @@
           "display_value": "Total gjeld"
 
         }
-      ]
+      ],
+      "utgift": []
     }
   ],
   "pris": {
