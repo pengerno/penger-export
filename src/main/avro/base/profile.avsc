@@ -188,7 +188,12 @@
                 "type": "enum",
                 "name": "GjeldKey",
                 "symbols": [
-                  "Totalgjeld"
+                  "Totalgjeld",
+                  "Studielan",
+                  "Billan",
+                  "Boliglan",
+                  "Forbrukslan",
+                  "Uspesifisert"
                 ]
               }
             },
