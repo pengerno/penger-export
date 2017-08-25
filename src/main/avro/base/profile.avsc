@@ -189,8 +189,7 @@
                 "type": "enum",
                 "name": "UtgiftKey",
                 "symbols": [
-                  "Barnebidrag",
-                  "Uspesifisert"
+                  "Barnebidrag"
                 ]
               }
             },
