@@ -16,6 +16,5 @@ Example data for exported formats:
 
 ## TODO:
 
-* Publishes internally now, publish to maven repository
 * Example data for Boliglån
 * Bindings: Avro provides bindings for multiple [languages](https://github.com/apache/avro/tree/master/lang). We could therefore aim to provide an integration library for the commonly most used languages at our providers.
