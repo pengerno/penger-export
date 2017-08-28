@@ -1,4 +1,4 @@
-# Penger Export [![Latest version](https://index.scala-lang.org/pengerno/penger-export/export/latest.svg?color=green)](https://index.scala-lang.org/pengerno/penger-export/export/)
+# Penger Export [![Latest version](https://index.scala-lang.org/pengerno/penger-export/export/latest.svg?color=green)](https://index.scala-lang.org/pengerno/penger-export/export/) [![Build Status](https://travis-ci.org/pengerno/penger-export.svg?branch=master)](https://travis-ci.org/pengerno/penger-export)
 
 ## Why?
 
