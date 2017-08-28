@@ -1,4 +1,4 @@
-# Penger Export
+# Penger Export [![Latest version](https://index.scala-lang.org/pengerno/penger-export/export/latest.svg?color=green)](https://index.scala-lang.org/pengerno/penger-export/export/)
 
 ## Why?
 
