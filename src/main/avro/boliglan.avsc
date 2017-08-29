@@ -45,8 +45,8 @@
       "type": ["null", "no.penger.export.domain.Boligdata"]
     },
     {
-      "name": "sikkerheteiendom",
-      "type": ["null", "no.penger.export.domain.Boligdata"]
+      "name": "tilleggssikkerhet",
+      "type": ["null", "no.penger.export.domain.NOK"]
     }
   ]
 }
