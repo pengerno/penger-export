@@ -47,6 +47,14 @@
     {
       "name": "tilleggssikkerhet",
       "type": ["null", "no.penger.export.domain.NOK"]
+    },
+    {
+      "name": "vedlegg",
+      "doc": "Inneholder sha256-hasher av alle vedlegg brukeren har lastet opp",
+      "type": {
+        "type": "array",
+        "items": {"type": "string"}
+      }
     }
   ]
 }
