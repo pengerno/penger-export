@@ -47,6 +47,13 @@
     {
       "name": "tilleggssikkerhet",
       "type": ["null", "no.penger.export.domain.NOK"]
+    },
+    {
+      "name": "vedleggshasher",
+      "type": {
+        "type": "array",
+        "items": {"type": "string"}
+      }
     }
   ]
 }
