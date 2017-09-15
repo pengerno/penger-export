@@ -1,6 +1,6 @@
 {
   "type": "enum",
-  "name": "MarketKey",
+  "name": "Markedsplass",
   "namespace": "no.penger.export.domain",
   "symbols": [
     "PENGER",

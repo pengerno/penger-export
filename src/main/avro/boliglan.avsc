@@ -16,8 +16,8 @@
       }
     },
     {
-      "name": "market",
-      "type": "no.penger.export.domain.MarketKey"
+      "name": "markedsplass",
+      "type": "no.penger.export.domain.Markedsplass"
     },
     {
       "name": "nedbetalingstid",
