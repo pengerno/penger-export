@@ -16,6 +16,10 @@
       }
     },
     {
+      "name": "market",
+      "type": "no.penger.export.domain.MarketKey"
+    },
+    {
       "name": "nedbetalingstid",
       "type": "int"
     },

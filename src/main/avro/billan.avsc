@@ -17,6 +17,10 @@
       }
     },
     {
+      "name": "market",
+      "type": "no.penger.export.domain.MarketKey"
+    },
+    {
       "name": "pris",
       "doc": "Kjøpesummen på dette objektet",
       "type": "no.penger.export.domain.NOK"
