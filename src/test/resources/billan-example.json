@@ -62,6 +62,7 @@
       "utgift": []
     }
   ],
+  "markedsplass": "PENGER",
   "pris": {
     "verdi": 10,
     "display_value": "10"

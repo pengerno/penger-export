@@ -17,6 +17,10 @@
       }
     },
     {
+      "name": "markedsplass",
+      "type": "no.penger.export.domain.Markedsplass"
+    },
+    {
       "name": "pris",
       "doc": "Kjøpesummen på dette objektet",
       "type": "no.penger.export.domain.NOK"

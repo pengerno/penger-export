@@ -1,11 +1,10 @@
 {
-  "type": "record",
-  "name": "MarketKey",
+  "type": "enum",
+  "name": "Markedsplass",
   "namespace": "no.penger.export.domain",
-  "fields": [
-    {
-      "name": "key",
-      "type": "string"
-    }
+  "symbols": [
+    "PENGER",
+    "FINN",
+    "UKJENT"
   ]
 }
