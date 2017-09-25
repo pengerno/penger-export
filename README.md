@@ -14,6 +14,26 @@ Example data for exported formats:
 
 * Billån - `src/main/test/resources/billan-example.json`
 
+## Consuming data
+
+For the API integration a multipart POST is issued to the configured endpoint, on the format:
+
+```
+POST /some-url
+Content-Type: multipart/form-data; boundary=------------------------d74496d66958873e
+--------------------------d74496d66958873e
+Content-Disposition: form-data; name="body.json"
+Content-Type: application/json
+
+{.. json content ..}
+--------------------------d74496d66958873e
+Content-Disposition: form-data; name="files"; filename="attachment-name.pdf"
+Content-Transfer-Encoding: binary
+
+.. data ..
+--------------------------d74496d66958873e--
+```
+
 ## TODO:
 
 * Example data for Boliglån
