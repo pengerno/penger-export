@@ -33,6 +33,7 @@ Content-Transfer-Encoding: binary
 .. data ..
 --------------------------d74496d66958873e--
 ```
+If request is successfully consumed, respond with **200 OK**.
 
 ## TODO:
 
