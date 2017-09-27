@@ -72,31 +72,27 @@
     "verdi": 10,
     "display_value": "10"
   },
-  "bil_data": {
-    "no.penger.export.BilData": {
-      "finnkode": {
-        "string": "112121"
-      },
-      "registreringsnummer": {
-        "string": "DN12345"
-      },
-      "hestekrefter": {
-        "int": 120
-      },
-      "kilometerstand": {
-        "int": 10000
-      },
-      "utslipp": null,
-      "salgstype": "PRIVAT",
-      "aarsmodell": {
-        "int": 2008
-      },
-      "merke": {
-        "string": "Subaru"
-      },
-      "modell": {
-        "string": "Impreza"
-      }
-    }
+  "finnkode": {
+    "string": "112121"
+  },
+  "registreringsnummer": {
+    "string": "DN12345"
+  },
+  "hestekrefter": {
+    "int": 120
+  },
+  "kilometerstand": {
+    "int": 10000
+  },
+  "utslipp": null,
+  "salgstype": "PRIVAT",
+  "aarsmodell": {
+    "int": 2008
+  },
+  "merke": {
+    "string": "Subaru"
+  },
+  "modell": {
+    "string": "Impreza"
   }
 }
