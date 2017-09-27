@@ -48,85 +48,71 @@
       "type": "no.penger.export.domain.NOK"
     },
     {
-      "name": "bil_data",
-      "doc": "Detaljert informasjon om bilen, dersom det finnes",
+      "name": "finnkode",
       "type": [
         "null",
-        {
-          "type": "record",
-          "name": "BilData",
-          "namespace": "no.penger.export",
-          "fields": [
-            {
-              "name": "finnkode",
-              "type": [
-                "null",
-                "string"
-              ]
-            },
-            {
-              "name": "registreringsnummer",
-              "type": [
-                "null",
-                "string"
-              ]
-            },
-            {
-              "name": "hestekrefter",
-              "type": [
-                "null",
-                "int"
-              ]
-            },
-            {
-              "name": "kilometerstand",
-              "type": [
-                "null",
-                "int"
-              ]
-            },
-            {
-              "name": "utslipp",
-              "type": [
-                "null",
-                "string"
-              ]
-            },
-            {
-              "name": "salgstype",
-              "type": {
-                "type": "enum",
-                "name": "Salgstype",
-                "symbols": [
-                  "PRIVAT",
-                  "FORHANDLER",
-                  "ANNET"
-                ]
-              }
-            },
-            {
-              "name": "aarsmodell",
-              "type": [
-                "null",
-                "int"
-              ]
-            },
-            {
-              "name": "merke",
-              "type": [
-                "null",
-                "string"
-              ]
-            },
-            {
-              "name": "modell",
-              "type": [
-                "null",
-                "string"
-              ]
-            }
-          ]
-        }
+        "string"
+      ]
+    },
+    {
+      "name": "registreringsnummer",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "hestekrefter",
+      "type": [
+        "null",
+        "int"
+      ]
+    },
+    {
+      "name": "kilometerstand",
+      "type": [
+        "null",
+        "int"
+      ]
+    },
+    {
+      "name": "utslipp",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "salgstype",
+      "type": {
+        "type": "enum",
+        "name": "Salgstype",
+        "symbols": [
+          "PRIVAT",
+          "FORHANDLER",
+          "ANNET"
+        ]
+      }
+    },
+    {
+      "name": "aarsmodell",
+      "type": [
+        "null",
+        "int"
+      ]
+    },
+    {
+      "name": "merke",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "modell",
+      "type": [
+        "null",
+        "string"
       ]
     }
   ]
