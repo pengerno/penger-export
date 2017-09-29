@@ -113,7 +113,8 @@
     },
     {
       "name": "barn",
-      "type": "no.penger.export.domain.AntallBarn"
+      "doc": "Antall barn på denne profilen",
+      "type": "int"
     },
     {
       "name": "inntekt",

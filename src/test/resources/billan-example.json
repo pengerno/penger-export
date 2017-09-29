@@ -31,10 +31,7 @@
       "biler": 2,
       "boforhold": "ANNET",
       "sivilstatus": "ENKE_ENKEMANN",
-      "barn": {
-        "under_10_ar": 2,
-        "fra_10_til_18_ar": 1
-      },
+      "barn": 2,
       "inntekt": [
         {
           "key": "SelvstendigNaering",
