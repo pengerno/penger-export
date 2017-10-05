@@ -1,18 +1,22 @@
 # Penger Export [![Latest version](https://index.scala-lang.org/pengerno/penger-export/export/latest.svg?color=green)](https://index.scala-lang.org/pengerno/penger-export/export/) [![Build Status](https://travis-ci.org/pengerno/penger-export.svg?branch=master)](https://travis-ci.org/pengerno/penger-export)
 
-## Why?
+## Purpose
 
 To provide a versioned and described data format for exchanging data with external entities. Since [Avro](https://avro.apache.org/docs/current/) is used at [FINN](https://www.finn.no) for data exchange, it seems as a good fit for describing our externally delivered data.
 
 ## Features
 
-Top level exported types:
+### Billån
 
-* Billån - `src/main/avro/billan.avsc`
+* Schema: `src/main/avro/billan.avsc`
+* Example: `src/test/resources/billan-example.json`
 
-Example data for exported formats:
+### Boliglån
 
-* Billån - `src/main/test/resources/billan-example.json`
+Currently work-in-progress data model for Boliglån
+
+* Schema: `src/main/avro/boliglan.avsc`
+* Example: `src/test/resources/boliglan-example.json`
 
 ## Consuming data
 
