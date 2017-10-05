@@ -1,0 +1,115 @@
+{
+  "kundereferanse": "E17RM278DQ",
+  "profiler": [
+    {
+      "fornavn": {
+        "string": "Ola"
+      },
+      "etternavn": {
+        "string": "Nordmann"
+      },
+      "rolle": "APPLICANT",
+      "fodselsdato": {
+        "string": "1987-06-09"
+      },
+      "fodselsnummer": {
+        "string": "09068734387"
+      },
+      "kjonn": "MANN",
+      "epost": {
+        "string": "ola@eksempel.no"
+      },
+      "adresse": {
+        "string": "Grensen 5-7"
+      },
+      "postnummer": {
+        "string": "0159"
+      },
+      "mobil": {
+        "string": "+4790909090"
+      },
+      "biler": 1,
+      "boforhold": "EIER",
+      "sivilstatus": "GIFT",
+      "barn": 1,
+      "inntekt": [
+        {
+          "key": "Arbeidstaker",
+          "arlig_inntekt": {
+            "verdi": 450000,
+            "display_value": "450 000"
+          },
+          "arbeidsgiver": null,
+          "ansatt_antall_ar": null,
+          "display_value": "Arbeidstaker"
+        }
+      ],
+      "utgift": [],
+      "gjeld": [
+        {
+          "key": "Studielan",
+          "belop": {
+            "verdi": 300000,
+            "display_value": "300 000"
+          },
+          "rente": null,
+          "gjenstaende_ar": null,
+          "display_value": "Studielån"
+        }
+      ]
+    },
+    {
+      "fornavn": {
+        "string": "Kari"
+      },
+      "etternavn": {
+        "string": "Nordmann"
+      },
+      "rolle": "CO_APPLICANT",
+      "fodselsdato": {
+        "string": "1985-10-18"
+      },
+      "fodselsnummer": {
+        "string": "18108532293"
+      },
+      "kjonn": "KVINNE",
+      "epost": null,
+      "adresse": null,
+      "postnummer": null,
+      "mobil": null,
+      "biler": 0,
+      "boforhold": "UKJENT",
+      "sivilstatus": "UKJENT",
+      "barn": 0,
+      "inntekt": [
+        {
+          "key": "Student",
+          "arlig_inntekt": {
+            "verdi": 100000,
+            "display_value": "100 000"
+          },
+          "arbeidsgiver": null,
+          "ansatt_antall_ar": null,
+          "display_value": "Student"
+        }
+      ],
+      "utgift": [],
+      "gjeld": []
+    }
+  ],
+  "markedsplass": "FINN",
+  "nedbetalingstid": 25,
+  "egenkapital": {
+    "verdi": 500000,
+    "display_value": "500 000"
+  },
+  "laanesum": {
+    "verdi": 0,
+    "display_value": "0"
+  },
+  "medlemsforeninger": [],
+  "laanetype": "Lån",
+  "eiendom": null,
+  "tilleggssikkerhet": null,
+  "vedlegg": []
+}
