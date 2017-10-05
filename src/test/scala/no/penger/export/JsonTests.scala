@@ -1,18 +1,24 @@
 package no.penger.export
 
+import com.sksamuel.avro4s.{FromRecord, SchemaFor, ToRecord}
+import no.penger.export.JsonTransform.{entityToJson, jsonToEntity}
 import org.scalatest.FunSuite
 
 class JsonTests extends FunSuite with TestHelpers {
 
-  test("ser-des billan") {
+  test("ser-des Billan") {
+    assertJson[Billan](resourceToString("/billan-example.json"))
+  }
 
-    import JsonTransform._
+  test("ser-des Boliglan") {
+    assertJson[Boliglan](resourceToString("/boliglan-example.json"))
+  }
 
-    val billan1 = jsonToEntity[no.penger.export.Billan](resourceToString("/billan-example.json")).right.get
-    val json    = entityToJson(billan1)
-    val billan2 = jsonToEntity[no.penger.export.Billan](json).right.get
-
-    assert(billan1 === billan2)
+  private def assertJson[T](source: String)(implicit s: SchemaFor[T], f: FromRecord[T], t: ToRecord[T]): Unit = {
+    val entity       = jsonToEntity[T](source).right.get
+    val json         = entityToJson[T](entity)
+    val deSerialized = jsonToEntity[T](json).right.get
+    assert(entity == deSerialized)
   }
 
 }
