@@ -31,7 +31,7 @@
     },
     {
       "name": "adresse",
-      "doc": "Addressen til leieobjektet",
+      "doc": "Adressen til leieobjektet",
       "type": "string"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "name": "maanedsleie",
-      "doc": "Månedsleie til leieobjektet",
+      "doc": "Månedsleie for leieobjektet",
       "type": "no.penger.export.domain.NOK"
     }
   ]
