@@ -1,0 +1,10 @@
+{
+  "type": "enum",
+  "name": "Gjenpartsbrev",
+  "doc": "Om gjenpartsbrev skal bli levert elektronisk eller via post",
+  "namespace": "no.penger.export.domain",
+  "symbols": [
+    "ELEKTRONISK",
+    "POST"
+  ]
+}

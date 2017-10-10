@@ -1,0 +1,53 @@
+{
+  "type": "record",
+  "name": "Utleieforsikring",
+  "namespace": "no.penger.export",
+  "doc": "Informasjon på utleieforsikring",
+  "fields": [
+    {
+      "name": "kundereferanse",
+      "type": "string"
+    },
+    {
+      "name": "profil",
+      "doc": "Informasjon om utleier",
+      "type": "no.penger.export.domain.Profil"
+    },
+    {
+      "name": "gjenpartsbrev",
+      "type": "no.penger.export.domain.Gjenpartsbrev"
+    },
+    {
+      "name": "utleietype",
+      "doc": "Om objektet er møblert eller ikke",
+      "type": {
+        "type": "enum",
+        "name": "Utleietype",
+        "symbols": [
+          "MOBLERT",
+          "UMOBLERT"
+        ]
+      }
+    },
+    {
+      "name": "adresse",
+      "doc": "Adressen til leieobjektet",
+      "type": "string"
+    },
+    {
+      "name": "postnummer",
+      "doc": "Postnummeret til leieobjektet",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "kvadratmeter",
+      "doc": "Kvadratmeter på leieobjektet",
+      "type": "int"
+    },
+    {
+      "name": "maanedsleie",
+      "doc": "Månedsleie for leieobjektet",
+      "type": "no.penger.export.domain.NOK"
+    }
+  ]
+}

@@ -22,15 +22,7 @@
     },
     {
       "name": "gjenpartsbrev",
-      "doc": "Om gjenpartsbrev skal bli levert elektronisk eller via post",
-      "type": {
-        "type": "enum",
-        "name": "Gjenpartsbrev",
-        "symbols": [
-          "ELEKTRONISK",
-          "POST"
-        ]
-      }
+      "type": "no.penger.export.domain.Gjenpartsbrev"
     },
     {
       "name": "pris",
