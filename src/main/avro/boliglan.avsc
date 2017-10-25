@@ -67,12 +67,12 @@
     },
     {
       "name": "anbefaltLaan",
-      "doc": "Anbefalt lån basert på likviditet",
-      "type": ["null", "no.penger.export.domain.NOK"]
+      "doc": "Anbefalt lån basert på likviditet i husholdningen",
+      "type": "no.penger.export.domain.NOK"
     },
     {
       "name": "belaaningsGrad",
-      "doc": "Belåningsgrad basert på egenkapital og anbefalt lån",
+      "doc": "Belåningsgrad basert på egenkapital og anbefalt lån, i prosent",
       "type": "double"
     }
   ]

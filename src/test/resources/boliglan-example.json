@@ -111,5 +111,11 @@
   "laanetype": "Lån",
   "eiendom": null,
   "tilleggssikkerhet": null,
-  "vedlegg": []
+  "vedlegg": [],
+  "kredittVerdig": true,
+  "anbefaltLaan": {
+    "verdi": 10000,
+    "display_value": "10 000"
+  },
+  "belaaningsGrad": 85.2
 }
