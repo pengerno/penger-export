@@ -59,6 +59,21 @@
         "type": "array",
         "items": {"type": "string"}
       }
+    },
+    {
+      "name": "kredittVerdig",
+      "doc": "Om låntager og eventuell medlåntager er kredittverdig",
+      "type": "boolean"
+    },
+    {
+      "name": "anbefaltLaan",
+      "doc": "Anbefalt lån basert på likviditet i husholdningen",
+      "type": "no.penger.export.domain.NOK"
+    },
+    {
+      "name": "belaaningsGrad",
+      "doc": "Belåningsgrad basert på egenkapital og anbefalt lån, i prosent",
+      "type": "double"
     }
   ]
 }
