@@ -1,5 +1,6 @@
 import ReleaseTransformations._
-sbtavrohugger.SbtAvrohugger.avroSettings
+
+sourceGenerators in Compile += (avroScalaGenerate in Compile).taskValue
 
 libraryDependencies ++= Artifacts.dependencies
 
