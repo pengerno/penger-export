@@ -41,5 +41,5 @@ If request is successfully consumed, respond with **200 OK**.
 
 ## TODO:
 
-* Example data for Boliglån
+* Example data for Utleieforsikring
 * Bindings: Avro provides bindings for multiple [languages](https://github.com/apache/avro/tree/master/lang). We could therefore aim to provide an integration library for the commonly most used languages at our providers.
