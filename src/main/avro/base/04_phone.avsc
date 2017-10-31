@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "Mobilnummer",
+  "doc": "Mobilnummer og landskode",
+  "namespace": "no.penger.export.domain",
+  "fields": [
+    {
+      "name": "nummer",
+      "type": "string"
+    },
+    {
+      "name": "landskode",
+      "type": "string"
+    }
+  ]
+}
