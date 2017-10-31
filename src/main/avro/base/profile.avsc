@@ -74,7 +74,7 @@
       "name": "mobil",
       "type": [
         "null",
-        "string"
+        "Mobilnummer"
       ]
     },
     {

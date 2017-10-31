@@ -26,7 +26,10 @@
         "string": "0159"
       },
       "mobil": {
-        "string": "+4790909090"
+        "no.penger.export.domain.Mobilnummer": {
+          "nummer": "90909090",
+          "landskode": "+47"
+        }
       },
       "biler": 1,
       "boforhold": "EIER",
