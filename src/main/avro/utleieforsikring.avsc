@@ -48,6 +48,11 @@
       "name": "maanedsleie",
       "doc": "Månedsleie for leieobjektet",
       "type": "no.penger.export.domain.NOK"
+    },
+    {
+      "name": "leiesUtFra",
+      "doc": "Dato objektet leies ut fra. Format: 'yyyy-MM-dd'.",
+      "type": "string"
     }
   ]
 }
