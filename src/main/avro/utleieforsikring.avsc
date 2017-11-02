@@ -51,7 +51,7 @@
     },
     {
       "name": "leiesUtFra",
-      "doc": "Dato objektet leies ut fra",
+      "doc": "Dato objektet leies ut fra. Format: 'yyyy-MM-dd'.",
       "type": "string"
     }
   ]

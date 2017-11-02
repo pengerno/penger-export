@@ -33,6 +33,7 @@
     },
     {
       "name": "fodselsdato",
+      "doc": "Fødselsdagen til personen. Format: 'yyyy-MM-dd'.",
       "type": [
         "null",
         "string"
