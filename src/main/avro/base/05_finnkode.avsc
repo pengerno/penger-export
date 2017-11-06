@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "FINNKode",
+  "doc": "FINN-kode",
+  "namespace": "no.penger.export.domain",
+  "fields": [
+    {
+      "name": "kode",
+      "type": "string"
+    }
+  ]
+}

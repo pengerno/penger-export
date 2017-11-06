@@ -53,6 +53,26 @@
       "name": "leiesUtFra",
       "doc": "Dato objektet leies ut fra. Format: 'yyyy-MM-dd'.",
       "type": "string"
+    },
+    {
+      "name": "kredittVerdig",
+      "doc": "Om låntager og eventuell medlåntager er kredittverdig",
+      "type": "boolean"
+    },
+    {
+      "name": "tidspunkt",
+      "doc": "Tidspunkt for kjøpet. Format: ISO8601",
+      "type": "string"
+    },
+    {
+      "name": "maanedspris",
+      "doc": "Månedspris på uteleforsikringen",
+      "type": "no.penger.export.domain.NOK"
+    },
+    {
+      "name": "finnkode",
+      "doc": "FINN-kode for leieobjektet",
+      "type": "no.penger.export.domain.FINNKode"
     }
   ]
 }
