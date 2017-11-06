@@ -68,6 +68,11 @@
       "name": "maanedspris",
       "doc": "Månedspris på uteleforsikringen",
       "type": "no.penger.export.domain.NOK"
+    },
+    {
+      "name": "finnkode",
+      "doc": "FINN-kode for leieobjektet",
+      "type": "no.penger.export.domain.FINNKode"
     }
   ]
 }
