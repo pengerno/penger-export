@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "Tidspunkt",
+  "doc": "Tidspunkt på ISO8601-format, med forslag til visning",
+  "namespace": "no.penger.export.domain",
+  "fields": [
+    {
+      "name": "iso8601",
+      "type": "string"
+    },
+    {
+      "name": "display_value",
+      "type": "string"
+    }
+  ]
+}
