@@ -120,5 +120,9 @@
     "verdi": 10000,
     "display_value": "10 000"
   },
-  "belaaningsGrad": 85.2
+  "belaaningsGrad": 85.2,
+  "mottatt": {
+    "iso8601": "2017-12-04T08:43:54.956Z",
+    "display_value": "04. desember, 2017"
+  }
 }

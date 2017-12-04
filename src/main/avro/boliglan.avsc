@@ -74,6 +74,11 @@
       "name": "belaaningsGrad",
       "doc": "Belåningsgrad basert på egenkapital og anbefalt lån, i prosent",
       "type": "double"
+    },
+    {
+      "name": "mottatt",
+      "type": "no.penger.export.domain.Tidspunkt",
+      "doc": "Tidspunkt for når søknaden ble mottatt"
     }
   ]
 }

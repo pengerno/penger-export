@@ -60,9 +60,9 @@
       "type": "boolean"
     },
     {
-      "name": "tidspunkt",
-      "doc": "Tidspunkt for kjøpet. Format: ISO8601",
-      "type": "string"
+      "name": "mottatt",
+      "type": "no.penger.export.domain.Tidspunkt",
+      "doc": "Tidspunkt for når søknaden ble mottatt"
     },
     {
       "name": "maanedspris",
