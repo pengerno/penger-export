@@ -8,15 +8,20 @@ To provide a versioned and described data format for exchanging data with extern
 
 ### Billån
 
-* Schema: `src/main/avro/billan.avsc`
-* Example: `src/test/resources/billan-example.json`
+* Schema: [`src/main/avro/billan.avsc`](src/main/avro/billan.avsc)
+* Example: [`src/test/resources/billan-example.json`](src/test/resources/billan-example.json)
 
 ### Boliglån
 
 Currently work-in-progress data model for Boliglån
 
-* Schema: `src/main/avro/boliglan.avsc`
-* Example: `src/test/resources/boliglan-example.json`
+* Schema: [`src/main/avro/boliglan.avsc`](src/main/avro/boliglan.avsc)
+* Example: [`src/test/resources/boliglan-example.json`](src/test/resources/boliglan-example.json)
+
+### Utleieforsikring
+
+* Schema: [`src/main/avro/utleieforsikring.avsc`](src/main/avro/utleieforsikring.avsc)
+* Example: [`src/test/resources/utleieforsikring-example.json`](src/test/resources/utleieforsikring-example.json)
 
 ## Consuming data
 
@@ -41,5 +46,4 @@ If request is successfully consumed, respond with **200 OK**.
 
 ## TODO:
 
-* Example data for Utleieforsikring
 * Bindings: Avro provides bindings for multiple [languages](https://github.com/apache/avro/tree/master/lang). We could therefore aim to provide an integration library for the commonly most used languages at our providers.
