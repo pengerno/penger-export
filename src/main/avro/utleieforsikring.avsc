@@ -65,8 +65,8 @@
       "doc": "Tidspunkt for når søknaden ble mottatt"
     },
     {
-      "name": "maanedspris",
-      "doc": "Månedspris på uteleforsikringen",
+      "name": "aarspris",
+      "doc": "Årspris på uteleforsikringen",
       "type": "no.penger.export.domain.NOK"
     },
     {
