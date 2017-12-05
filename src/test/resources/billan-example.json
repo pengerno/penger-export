@@ -99,5 +99,6 @@
   "modell": {
     "string": "Impreza"
   },
-  "buddINorgeSiste5Aar": true
+  "buddINorgeSiste5Aar": true,
+  "kjoretoyType": "PERSONBIL"
 }
