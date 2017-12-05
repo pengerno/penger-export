@@ -98,5 +98,7 @@
   },
   "modell": {
     "string": "Impreza"
-  }
+  },
+  "boddINorgeSiste5Aar": true,
+  "kjoretoyType": "PERSONBIL"
 }

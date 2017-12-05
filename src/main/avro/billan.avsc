@@ -106,6 +106,30 @@
         "null",
         "string"
       ]
+    },
+    {
+      "name": "boddINorgeSiste5Aar",
+      "doc": "Ja, dersom låntager eller medlåntager har bodd i Norge siste 5 år",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "name": "kjoretoyType",
+      "type": {
+        "type": "enum",
+        "name": "VehicleType",
+        "symbols": [
+          "PERSONBIL",
+          "ELBIL",
+          "VAREBIL",
+          "BOBIL",
+          "CAMPINGVOGN",
+          "MC",
+          "SNOSCOOTER",
+          "ATV"
+        ],
+        "default": "PERSONBIL"
+      }
     }
   ]
 }
