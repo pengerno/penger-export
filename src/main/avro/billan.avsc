@@ -108,7 +108,8 @@
       ]
     },
     {
-      "name": "buddINorgeSiste5Aar",
+      "name": "boddINorgeSiste5Aar",
+      "doc": "Ja, dersom låntager eller medlåntager har bodd i Norge siste 5 år",
       "type": "boolean",
       "default": true
     },
