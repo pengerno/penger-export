@@ -35,6 +35,8 @@
       "boforhold": "ANNET",
       "sivilstatus": "ENKE_ENKEMANN",
       "barn": 2,
+      "barnUnderTiAar": 0,
+      "barnFraTiAar": 2,
       "inntekt": [
         {
           "key": "SelvstendigNaering",

@@ -118,6 +118,18 @@
       "type": "int"
     },
     {
+      "name": "barnUnderTiAar",
+      "doc": "Antall barn under 10 år",
+      "type": "int",
+      "default": 0
+    },
+    {
+      "name": "barnFraTiAar",
+      "doc": "Antall barn fra 10 til 18 år",
+      "type": "int",
+      "default": 0
+    },
+    {
       "name": "inntekt",
       "type": {
         "type": "array",
