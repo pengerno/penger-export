@@ -30,6 +30,8 @@
     "boforhold": "UKJENT",
     "sivilstatus": "UKJENT",
     "barn": 0,
+    "barnUnderTiAar": 0,
+    "barnFraTiAar": 0,
     "inntekt": [],
     "utgift": [],
     "gjeld": []

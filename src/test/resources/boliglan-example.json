@@ -35,6 +35,8 @@
       "boforhold": "EIER",
       "sivilstatus": "GIFT",
       "barn": 1,
+      "barnUnderTiAar": 1,
+      "barnFraTiAar": 0,
       "inntekt": [
         {
           "key": "Arbeidstaker",
@@ -84,6 +86,8 @@
       "boforhold": "UKJENT",
       "sivilstatus": "UKJENT",
       "barn": 0,
+      "barnUnderTiAar": 0,
+      "barnFraTiAar": 0,
       "inntekt": [
         {
           "key": "Student",
