@@ -270,6 +270,14 @@
           ]
         }
       }
+    },
+    {
+      "name": "fagforeninger",
+      "type": {
+        "type": "array",
+        "items": "no.penger.export.domain.Fagforening",
+        "default": null
+      }
     }
   ]
 }

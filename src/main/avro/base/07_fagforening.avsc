@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Fagforening",
+  "doc": "Fagforening",
+  "namespace": "no.penger.export.domain",
+  "fields": [
+    {
+      "name": "navn",
+      "type": "string"
+    }
+  ]
+}

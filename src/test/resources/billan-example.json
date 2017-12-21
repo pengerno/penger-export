@@ -64,7 +64,12 @@
 
         }
       ],
-      "utgift": []
+      "utgift": [],
+      "fagforeninger": [
+        {
+          "navn": "Testforening"
+        }
+      ]
     }
   ],
   "markedsplass": "PENGER",

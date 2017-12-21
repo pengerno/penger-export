@@ -61,6 +61,11 @@
           "gjenstaende_ar": null,
           "display_value": "Studielån"
         }
+      ],
+      "fagforeninger": [
+        {
+          "navn": "Testforening"
+        }
       ]
     },
     {
@@ -101,7 +106,8 @@
         }
       ],
       "utgift": [],
-      "gjeld": []
+      "gjeld": [],
+      "fagforeninger": []
     }
   ],
   "markedsplass": "FINN",
@@ -114,7 +120,6 @@
     "verdi": 0,
     "display_value": "0"
   },
-  "medlemsforeninger": [],
   "laanetype": "Lån",
   "eiendom": null,
   "tilleggssikkerhet": null,
