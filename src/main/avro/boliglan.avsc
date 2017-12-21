@@ -32,15 +32,6 @@
       "type": "no.penger.export.domain.NOK"
     },
     {
-      "name": "medlemsforeninger",
-      "type": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      }
-    },
-    {
       "name": "laanetype",
       "type": "string"
     },
