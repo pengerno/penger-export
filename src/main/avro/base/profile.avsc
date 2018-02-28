@@ -143,6 +143,7 @@
                 "type": "enum",
                 "name": "InntektKey",
                 "symbols": [
+                  "Arbeidsledig",
                   "Arbeidstaker",
                   "Barnebidrag",
                   "SelvstendigNaering",
