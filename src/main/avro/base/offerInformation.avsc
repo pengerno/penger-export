@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "name": "OfferInformation",
+  "namespace": "no.penger.export.domain",
+  "fields": [
+    {
+      "name": "tilbydernavn",
+      "doc": "Stabilt navn (nøkkel) på tilbyderen brukeren har valgt",
+      "type": "string"
+    },
+    {
+      "name": "tilbudsnavn",
+      "doc": "Navn på tilbudet vist til brukeren",
+      "type": "string"
+    }
+  ]
+}

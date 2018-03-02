@@ -73,6 +73,10 @@
     }
   ],
   "markedsplass": "PENGER",
+  "tilbud":{
+    "tilbydernavn":"banknavn",
+    "tilbudsnavn":"Billån for unge"
+  },
   "gjenpartsbrev": "ELEKTRONISK",
   "pris": {
     "verdi": 10,

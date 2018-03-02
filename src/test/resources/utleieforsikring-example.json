@@ -38,6 +38,10 @@
     "fagforeninger": []
   },
   "gjenpartsbrev": "ELEKTRONISK",
+  "tilbud":{
+    "tilbydernavn":"banknavn",
+    "tilbudsnavn":"Utleieforsikring under 40m2"
+  },
   "utleietype": "MOBLERT",
   "adresse": "foobar",
   "postnummer": {

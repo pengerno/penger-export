@@ -21,6 +21,11 @@
       "type": "no.penger.export.domain.Markedsplass"
     },
     {
+      "name": "tilbud",
+      "doc": "Informasjon om billånstilbudet brukeren har valgt",
+      "type": "no.penger.export.domain.OfferInformation"
+    },
+    {
       "name": "gjenpartsbrev",
       "type": "no.penger.export.domain.Gjenpartsbrev"
     },
