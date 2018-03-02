@@ -14,7 +14,8 @@
       "type": "no.penger.export.domain.Profil"
     },
     {
-      "name": "tilbudsinformasjon",
+      "name": "tilbud",
+      "doc": "Informasjon om utleieforsikringstilbudet brukeren har valgt",
       "type": "no.penger.export.domain.OfferInformation"
     },
     {
