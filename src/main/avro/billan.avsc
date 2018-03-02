@@ -21,6 +21,10 @@
       "type": "no.penger.export.domain.Markedsplass"
     },
     {
+      "name": "tilbudsinformasjon",
+      "type": "no.penger.export.domain.OfferInformation"
+    },
+    {
       "name": "gjenpartsbrev",
       "type": "no.penger.export.domain.Gjenpartsbrev"
     },

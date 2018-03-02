@@ -20,6 +20,10 @@
       "type": "no.penger.export.domain.Markedsplass"
     },
     {
+      "name": "tilbudsinformasjon",
+      "type": "no.penger.export.domain.OfferInformation"
+    },
+    {
       "name": "nedbetalingstid",
       "type": "int"
     },

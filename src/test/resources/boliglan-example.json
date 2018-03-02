@@ -111,6 +111,10 @@
     }
   ],
   "markedsplass": "FINN",
+  "tilbudsinformasjon":{
+    "tilbydernavn":"banknavn",
+    "tilbudsnavn":"Boliglån for unge"
+  },
   "nedbetalingstid": 25,
   "egenkapital": {
     "verdi": 500000,
