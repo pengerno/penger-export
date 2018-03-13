@@ -1,0 +1,9 @@
+{
+  "type": "enum",
+  "name": "Transmission",
+  "namespace": "no.penger.export.domain",
+  "symbols": [
+    "AUTOMATIC",
+    "MANUAL"
+  ]
+}
