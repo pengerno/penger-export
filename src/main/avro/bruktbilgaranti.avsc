@@ -1,0 +1,81 @@
+{
+  "type": "record",
+  "name": "Bruktbilgaranti",
+  "namespace": "no.penger.export",
+  "doc": "Informasjon på bruktbilgaranti",
+  "fields": [
+    {
+      "name": "kundereferanse",
+      "type": "string"
+    },
+    {
+      "name": "profil",
+      "doc": "Informasjon om kjøperen",
+      "type": "no.penger.export.domain.Profil"
+    },
+    {
+      "name": "tilbud",
+      "doc": "Informasjon om tilbudet kjøperen har valgt",
+      "type": "no.penger.export.domain.OfferInformation"
+    },
+    {
+      "name": "pris",
+      "doc": "Oppgitt pris på kjøperens bruktbilgaranti",
+      "type": "no.penger.export.domain.NOK"
+    },
+    {
+      "name": "gjenpartsbrev",
+      "type": "no.penger.export.domain.Gjenpartsbrev"
+    },
+
+    {
+      "name": "kredittVerdig",
+      "doc": "Om låntager og eventuell medlåntager er kredittverdig",
+      "type": "boolean"
+    },
+
+    {
+      "name": "mottatt",
+      "type": "no.penger.export.domain.Tidspunkt",
+      "doc": "Tidspunkt for når søknaden ble mottatt"
+    },
+
+    {
+      "name": "finnkode",
+      "doc": "FINN-kode for bilen",
+      "type": "no.penger.export.domain.FINNKode"
+    },
+    {
+      "name": "registreringsnummer",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "hestekrefter",
+      "type": ["null", "int"]
+    },
+    {
+      "name": "kilometerstand",
+      "type": ["null", "int"]
+    },
+    {
+      "name": "utslipp",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "aarsmodell",
+      "type": ["null", "int"]
+    },
+    {
+      "name": "merke",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "modell",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "girtype",
+      "type": ["null", "no.penger.export.domain.Transmission"]
+    }
+  ]
+}
