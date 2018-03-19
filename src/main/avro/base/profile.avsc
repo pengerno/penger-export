@@ -32,6 +32,22 @@
       }
     },
     {
+      "name": "statsborgerskap",
+      "doc": "Statsborgerskapet til personen.",
+      "type": [
+        "null",
+        "no.penger.export.domain.Country"
+      ]
+    },
+    {
+      "name": "fodeland",
+      "doc": "Fødelandet til personen.",
+      "type": [
+        "null",
+        "no.penger.export.domain.Country"
+      ]
+    },
+    {
       "name": "fodselsdato",
       "doc": "Fødselsdagen til personen. Format: 'yyyy-MM-dd'.",
       "type": [

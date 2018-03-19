@@ -9,6 +9,16 @@
         "string": "Nordmann"
       },
       "rolle": "APPLICANT",
+      "fodeland": {
+        "no.penger.export.domain.Country":{
+          "iso3166":"GBR"
+        }
+      },
+      "statsborgerskap": {
+        "no.penger.export.domain.Country":{
+          "iso3166":"NOR"
+        }
+      },
       "fodselsdato": {
         "string": "1985-10-18"
       },
@@ -111,5 +121,6 @@
     "string": "Impreza"
   },
   "boddINorgeSiste5Aar": true,
+  "politiskEksponertPerson": false,
   "kjoretoyType": "PERSONBIL"
 }

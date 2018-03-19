@@ -119,6 +119,12 @@
       "default": true
     },
     {
+      "name": "politiskEksponertPerson",
+      "doc": "Ja, dersom lånetager eller medlånetaker er politisk eksponert",
+      "type": "boolean",
+      "default": false
+    },
+    {
       "name": "kjoretoyType",
       "type": {
         "type": "enum",
