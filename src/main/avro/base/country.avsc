@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Country",
+  "doc": "Landskode i ISO 3166-1 alpha-3 format",
+  "namespace": "no.penger.export.domain",
+  "fields": [
+    {
+      "name": "iso3166",
+      "type": "string"
+    }
+  ]
+}

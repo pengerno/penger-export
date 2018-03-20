@@ -9,6 +9,16 @@
         "string": "Nordmann"
       },
       "rolle": "APPLICANT",
+      "fodeland": {
+        "no.penger.export.domain.Country":{
+          "iso3166":"GBR"
+        }
+      },
+      "statsborgerskap": {
+        "no.penger.export.domain.Country":{
+          "iso3166":"NOR"
+        }
+      },
       "fodselsdato": {
         "string": "1987-06-09"
       },
@@ -76,6 +86,8 @@
         "string": "Nordmann"
       },
       "rolle": "CO_APPLICANT",
+      "fodeland" : null,
+      "statsborgerskap" : null,
       "fodselsdato": {
         "string": "1985-10-18"
       },

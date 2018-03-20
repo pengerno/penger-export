@@ -8,6 +8,16 @@
       "string": "fdsa"
     },
     "rolle": "APPLICANT",
+    "fodeland": {
+      "no.penger.export.domain.Country":{
+        "iso3166":"GBR"
+      }
+    },
+    "statsborgerskap": {
+      "no.penger.export.domain.Country":{
+        "iso3166":"NOR"
+      }
+    },
     "fodselsdato": {
       "string": "1977-06-01"
     },
