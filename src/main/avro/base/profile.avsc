@@ -248,7 +248,6 @@
                 "type": "enum",
                 "name": "GjeldKey",
                 "symbols": [
-                  "Totalgjeld",
                   "Studielan",
                   "Billan",
                   "Boliglan",
