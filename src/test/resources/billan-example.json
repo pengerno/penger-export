@@ -63,14 +63,14 @@
       ],
       "gjeld": [
         {
-          "key": "Totalgjeld",
+          "key": "Studielan",
           "belop": {
             "verdi": 10,
             "display_value": "10"
           },
           "rente": null,
           "gjenstaende_ar": null,
-          "display_value": "Total gjeld"
+          "display_value": "Studielån"
 
         }
       ],
