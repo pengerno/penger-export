@@ -1,0 +1,33 @@
+{
+  "type": "record",
+  "name": "BilforsikringBildata",
+  "doc": "Data om bil i en forsikringspakkesøknad",
+  "namespace": "no.penger.export.domain.bilforsikring",
+  "fields": [
+    {
+      "type": ["null", "string"],
+      "name": "registreringsnummer",
+      "default": null
+    },
+    {
+      "type": "int",
+      "name": "registreringsaar"
+    },
+    {
+      "type": "string",
+      "name": "merke"
+    },
+    {
+      "type": "string",
+      "name": "modell"
+    },
+    {
+      "type": "string",
+      "name": "variant"
+    },
+    {
+      "type": "double",
+      "name": "motorstoerrelse"
+    }
+  ]
+}

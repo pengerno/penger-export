@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Reiseforsikring",
+  "doc": "Data om ønsket reiseforsikring i en forsikringspakkesøknad",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "fields": [
+    {
+      "name": "omfang",
+      "type": "no.penger.export.domain.forsikringspakke.ReiseforsikringOmfang"
+    }
+  ]
+}

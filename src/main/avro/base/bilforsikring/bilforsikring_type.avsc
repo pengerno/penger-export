@@ -1,0 +1,7 @@
+{
+  "type": "enum",
+  "name": "BilforsikringType",
+  "doc": "Type bilforsikring",
+  "namespace": "no.penger.export.domain.bilforsikring",
+  "symbols": ["ANSVAR", "DELKASKO", "KASKO"]
+}

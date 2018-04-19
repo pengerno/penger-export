@@ -1,0 +1,8 @@
+{
+  "type": "enum",
+  "name": "ReiseforsikringOmfang",
+  "doc":
+    "Hvem som skal dekkes av reiseforsikringen i en forsikringspakkesøknad",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "symbols": ["ENKELTPERSON", "FAMILIE"]
+}
