@@ -1,0 +1,7 @@
+{
+  "type": "enum",
+  "name": "Kjellertype",
+  "doc": "Beskriver boligens kjeller",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "symbols": ["INGEN_KJELLER", "KRYPKJELLER", "FULL_KJELLER"]
+}
