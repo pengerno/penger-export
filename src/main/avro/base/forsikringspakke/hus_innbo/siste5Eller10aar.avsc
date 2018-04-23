@@ -1,0 +1,8 @@
+{
+  "type": "enum",
+  "name": "Siste5Eller10Aar",
+  "doc":
+    "Beskriver tidspunktet til en hendelse ved om det har skjedd de siste 5 årene, siste 10 årene, eller ikke.",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "symbols": ["NEI", "JA_SISTE_5", "JA_SISTE_10"]
+}

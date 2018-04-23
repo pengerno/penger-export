@@ -1,0 +1,32 @@
+{
+  "type": "record",
+  "name": "HusInnboforsikringFelles",
+  "doc": "Data relevant for både husforsikring og innboforsikring",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "fields": [
+    {
+      "type": "Hustype",
+      "name": "hustype"
+    },
+    {
+      "type": "Byggemaate",
+      "name": "byggemaate"
+    },
+    {
+      "type": "no.penger.export.domain.NOK",
+      "name": "egenandel"
+    },
+    {
+      "type": "AlarmVarsling",
+      "name": "innbruddsalarm"
+    },
+    {
+      "type": "AlarmVarsling",
+      "name": "brannalarm"
+    },
+    {
+      "type": "AlarmVarsling",
+      "name": "vannalarm"
+    }
+  ]
+}

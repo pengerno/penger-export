@@ -1,0 +1,7 @@
+{
+  "type": "record",
+  "name": "Innboforsikring",
+  "doc": "Data relevant kun for innboforsikring",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "fields": []
+}

@@ -1,0 +1,17 @@
+{
+  "type": "enum",
+  "name": "Hustype",
+  "doc": "Hustype",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "symbols": [
+    "ENEBOLIG",
+    "TOMANNSBOLIG_HORISONTALDELT",
+    "TOMANNSBOLIG_VERTIKALDELT",
+    "TREMANNSBOLIG",
+    "FIREMANNSBOLIG",
+    "REKKEHUS",
+    "HYBEL",
+    "LEILIGHET",
+    "BLOKK"
+  ]
+}

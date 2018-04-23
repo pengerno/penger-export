@@ -1,0 +1,7 @@
+{
+  "type": "enum",
+  "name": "UtleidDel",
+  "doc": "Beskriver om hele eller deler av boligen er utleid.",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "symbols": ["IKKE_UTLEID", "DELER", "HELE"]
+}
