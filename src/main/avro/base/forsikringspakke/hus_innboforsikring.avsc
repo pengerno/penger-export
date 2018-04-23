@@ -16,56 +16,6 @@
     {
       "type": ["null", "Innboforsikring"],
       "name": "innbo"
-    },
-    {
-      "type": ["null", "Siste5Eller10Aar"],
-      "name": "elektriskeInspisert"
-    },
-    {
-      "type": ["null", "int"],
-      "doc":
-        "Årstallet (4 siffer) da det elektriske anlegget sist ble renovert",
-      "name": "elektriskeRenovert"
-    },
-    {
-      "type": ["null", "int"],
-      "doc": "Årstallet (4 siffer) da rørene sist ble renovert",
-      "name": "roerRenovert"
-    },
-    {
-      "type": "int",
-      "name": "husstandMedlemmer"
-    },
-    {
-      "type": "UtleidDel",
-      "name": "utleidDel"
-    },
-    {
-      "type": "boolean",
-      "doc": "Om boligen har FG-godkjent låssikring.",
-      "name": "laassikring"
-    },
-    {
-      "type": "boolean",
-      "name": "vannstoppventil"
-    },
-    {
-      "type": "boolean",
-      "name": "overspenningsvern"
-    },
-    {
-      "type": "boolean",
-      "name": "komfyralarm"
-    },
-    {
-      "type": "boolean",
-      "doc": "Om søkeren bor selv i boligen",
-      "name": "borSelv"
-    },
-    {
-      "type": "boolean",
-      "doc": "Om det bor røykere i boligen",
-      "name": "borRoeykere"
     }
   ]
 }

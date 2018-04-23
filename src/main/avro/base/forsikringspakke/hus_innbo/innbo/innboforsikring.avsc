@@ -3,5 +3,27 @@
   "name": "Innboforsikring",
   "doc": "Data relevant kun for innboforsikring",
   "namespace": "no.penger.export.domain.forsikringspakke",
-  "fields": []
+  "fields": [
+    {
+      "type": "no.penger.export.domain.NOK",
+      "doc": "Hvor mye søkeren vil forsikre innboet sitt for",
+      "name": "beloep"
+    },
+    {
+      "type": "boolean",
+      "name": "bakkeplan"
+    },
+    {
+      "type": "boolean",
+      "name": "egenInngang"
+    },
+    {
+      "type": "boolean",
+      "name": "romUnderBakken"
+    },
+    {
+      "type": ["null", "boolean"],
+      "name": "oppholdsromUnderBakken"
+    }
+  ]
 }
