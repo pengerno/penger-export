@@ -1,0 +1,12 @@
+{
+  "type": "enum",
+  "name": "AlarmVarsling",
+  "doc": "Hvem som blir varslet dersom alarmen blir utløst.",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "symbols": [
+    "INGEN",
+    "VARSLER_MOBILTELEFON",
+    "VARSLER_VAKTSELSKAP",
+    "VARSLER_BEGGE"
+  ]
+}

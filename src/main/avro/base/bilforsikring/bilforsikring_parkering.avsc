@@ -1,0 +1,8 @@
+{
+  "type": "enum",
+  "name": "BilforsikringParkering",
+  "doc":
+    "Hvor bilen som skal forsikres blir parkert over natten ved eierens bosted.",
+  "namespace": "no.penger.export.domain.bilforsikring",
+  "symbols": ["EGEN_LAAST_GARASJE", "FELLES_GARASJE", "EGEN_TOMT", "ANNEN"]
+}

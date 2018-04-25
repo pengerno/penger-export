@@ -1,0 +1,7 @@
+{
+  "type": "enum",
+  "name": "Byggemaate",
+  "doc": "Byggemåte (byggemateriale)",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "symbols": ["TRE", "MUR", "BRANNTRYGT"]
+}

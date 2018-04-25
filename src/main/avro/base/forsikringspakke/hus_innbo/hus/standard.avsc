@@ -1,0 +1,7 @@
+{
+  "type": "enum",
+  "name": "Boligstandard",
+  "doc": "Beskriver en en boligs standard",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "symbols": ["DAARLIG", "NORMAL", "BEDRE", "HOEY"]
+}

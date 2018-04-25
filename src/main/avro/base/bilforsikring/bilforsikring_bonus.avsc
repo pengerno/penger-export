@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "name": "BilforsikringBonus",
+  "doc": "Bonus for bilforsikring",
+  "namespace": "no.penger.export.domain.bilforsikring",
+  "fields": [
+    {
+      "type": "int",
+      "name": "prosent"
+    },
+    {
+      "type": ["null", "int"],
+      "name": "antallAar",
+      "default": null
+    }
+  ]
+}

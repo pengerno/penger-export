@@ -1,0 +1,61 @@
+{
+  "type": "record",
+  "name": "Bilforsikring",
+  "doc": "Data om bil, eksisterende bilforsikring og ønsket bilforsikring",
+  "namespace": "no.penger.export.domain.bilforsikring",
+  "fields": [
+    {
+      "type": "BilforsikringBildata",
+      "name": "bil"
+    },
+
+    {
+      "type": "BilforsikringBonus",
+      "name": "bonus"
+    },
+    {
+      "type": "int",
+      "name": "aarligKjoerelengde"
+    },
+
+    {
+      "type": "no.penger.export.domain.NOK",
+      "name": "egenandel"
+    },
+    {
+      "type": ["null", "int"],
+      "doc":
+        "Alderen til bilens yngste sjåfør under 25 år. Feltet er tomt dersom ingen under 25 år kjører bilen.",
+      "name": "yngsteSjaafoerAlderUnder25",
+      "default": null
+    },
+    {
+      "type": "BilforsikringParkering",
+      "name": "parkering"
+    },
+    {
+      "type": "BilforsikringType",
+      "name": "type"
+    },
+    {
+      "type": "boolean",
+      "doc": "Søkeren har lån med sikkerhet i bilen.",
+      "name": "harBillaan"
+    },
+    {
+      "type": "boolean",
+      "doc": "Bilen har FG-godkjent tyverialarm.",
+      "name": "tyverialarm"
+    },
+    {
+      "type": "boolean",
+      "doc": "Bilen har ESP (antiskrens)",
+      "name": "antiskrens"
+    },
+    {
+      "type": "boolean",
+      "doc": "Bilen har FG-godkjent gjenfinningssystem",
+      "name": "gjenfinningssystem"
+    }
+  ]
+}

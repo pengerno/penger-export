@@ -1,0 +1,21 @@
+{
+  "type": "record",
+  "name": "HusInnboforsikring",
+  "doc":
+    "Data om bolig og ønsket hus og/eller innboforsikring i en forsikringspakkesøknad",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "fields": [
+    {
+      "type": "HusInnboforsikringFelles",
+      "name": "felles"
+    },
+    {
+      "type": ["null", "Husforsikring"],
+      "name": "hus"
+    },
+    {
+      "type": ["null", "Innboforsikring"],
+      "name": "innbo"
+    }
+  ]
+}

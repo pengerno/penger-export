@@ -1,0 +1,47 @@
+{
+  "type": "record",
+  "name": "Husforsikring",
+  "doc": "Data kun relevant for husforsikring",
+  "namespace": "no.penger.export.domain.forsikringspakke",
+  "fields": [
+    {
+      "type": "Boligstandard",
+      "name": "standard"
+    },
+    {
+      "type": "int",
+      "name": "antallBoenheter"
+    },
+    {
+      "type": "int",
+      "name": "antallBad"
+    },
+    {
+      "type": "Kjellertype",
+      "name": "kjeller"
+    },
+    {
+      "type": "int",
+      "doc": "Bygningens byggeår (4 siffer)",
+      "name": "byggeaar"
+    },
+    {
+      "type": "int",
+      "name": "bruttoareal"
+    },
+    {
+      "type": "boolean",
+      "doc": "Om samtlige vannrør i boligen har rør-i-rør system",
+      "name": "roerIRoer"
+    },
+    {
+      "type": "boolean",
+      "doc": "Om boligen har seriekoblede røykvarslere",
+      "name": "serieRoeykvarslere"
+    },
+    {
+      "type": "boolean",
+      "name": "automatsikring"
+    }
+  ]
+}

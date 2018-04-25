@@ -1,0 +1,65 @@
+{
+  "type": "record",
+  "name": "Forsikringspakke",
+  "namespace": "no.penger.export",
+  "doc": "Forsikringspakkesøknad",
+  "fields": [
+    {
+      "name": "kundereferanse",
+      "type": "string"
+    },
+    {
+      "name": "profiler",
+      "type": {
+        "type": "array",
+        "items": "no.penger.export.domain.Profil"
+      }
+    },
+    {
+      "name": "markedsplass",
+      "type": "no.penger.export.domain.Markedsplass"
+    },
+    {
+      "name": "bil",
+      "type": [
+        "null",
+        {
+          "type": "array",
+          "items": "no.penger.export.domain.bilforsikring.Bilforsikring"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "husInnbo",
+      "type": [
+        "null",
+        "no.penger.export.domain.forsikringspakke.HusInnboforsikring"
+      ],
+      "default": null
+    },
+    {
+      "name": "reise",
+      "type": [
+        "null",
+        "no.penger.export.domain.forsikringspakke.Reiseforsikring"
+      ],
+      "default": null
+    },
+    {
+      "name": "tilbud",
+      "doc": "Informasjon om tilbudet brukeren har valgt",
+      "type": "no.penger.export.domain.OfferInformation"
+    },
+    {
+      "name": "kredittVerdig",
+      "doc": "Om søkeren er kredittverdig",
+      "type": "boolean"
+    },
+    {
+      "name": "mottatt",
+      "type": "no.penger.export.domain.Tidspunkt",
+      "doc": "Tidspunkt for når søknaden ble mottatt"
+    }
+  ]
+}
