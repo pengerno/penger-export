@@ -29,7 +29,7 @@
       "name": "vannalarm"
     },
     {
-      "type": ["null", "Siste5Eller10Aar"],
+      "type": "Siste5Eller10Aar",
       "name": "elektriskeInspisert"
     },
     {
