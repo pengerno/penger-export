@@ -23,7 +23,8 @@
     },
     {
       "type": ["null", "boolean"],
-      "name": "oppholdsromUnderBakken"
+      "name": "oppholdsromUnderBakken",
+      "default": null
     }
   ]
 }
