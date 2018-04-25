@@ -23,8 +23,11 @@
       "name": "egenandel"
     },
     {
-      "type": "int",
-      "name": "yngsteSjaafoerAlder"
+      "type": ["null", "int"],
+      "doc":
+        "Alderen til bilens yngste sjåfør under 25 år. Feltet er tomt dersom ingen under 25 år kjører bilen.",
+      "name": "yngsteSjaafoerAlderUnder25",
+      "default": null
     },
     {
       "type": "BilforsikringParkering",
