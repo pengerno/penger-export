@@ -9,8 +9,17 @@
       "name": "prosent"
     },
     {
+      "name": "antallAarFra",
+      "doc":
+        "Nedre grense (inklusiv) for hvor lenge bonusen har vært gjeldende på nåværende prosent.",
       "type": ["null", "int"],
-      "name": "antallAar",
+      "default": null
+    },
+    {
+      "name": "antallAarTil",
+      "doc":
+        "Øvre grense (inklusiv) for hvor lenge bonusen har vært gjeldende på nåværende prosent",
+      "type": ["null", "int"],
       "default": null
     }
   ]
