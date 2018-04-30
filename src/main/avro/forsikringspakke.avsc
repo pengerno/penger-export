@@ -60,6 +60,19 @@
       "name": "mottatt",
       "type": "no.penger.export.domain.Tidspunkt",
       "doc": "Tidspunkt for når søknaden ble mottatt"
+    },
+    {
+      "name": "ansattIKommuneEllerHelsesektor",
+      "type": "boolean",
+      "doc": "Om søker eller ektefelle/samboer er ansatt i kommune- eller helsesektoren"
+    },
+    {
+      "name": "hovedforsikringsSelskap",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Søkeren sitt hovedforsikringsselskap ved søknadstidspunkt"
     }
   ]
 }
