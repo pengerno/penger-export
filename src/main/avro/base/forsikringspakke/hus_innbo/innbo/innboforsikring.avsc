@@ -6,6 +6,11 @@
   "fields": [
     {
       "type": "no.penger.export.domain.NOK",
+      "doc": "Hvor mye søkeren ønsker i egenandel for denne innboforsikringen",
+      "name": "egenandel"
+    },
+    {
+      "type": "no.penger.export.domain.NOK",
       "doc": "Hvor mye søkeren vil forsikre innboet sitt for",
       "name": "beloep"
     },

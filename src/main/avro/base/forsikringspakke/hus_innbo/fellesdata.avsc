@@ -13,10 +13,6 @@
       "name": "byggemaate"
     },
     {
-      "type": "no.penger.export.domain.NOK",
-      "name": "egenandel"
-    },
-    {
       "type": "AlarmVarsling",
       "name": "innbruddsalarm"
     },
