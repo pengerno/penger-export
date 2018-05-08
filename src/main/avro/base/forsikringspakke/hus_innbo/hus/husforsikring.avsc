@@ -5,6 +5,11 @@
   "namespace": "no.penger.export.domain.forsikringspakke",
   "fields": [
     {
+      "type": "no.penger.export.domain.NOK",
+      "doc": "Hvor mye søkeren ønsker i egenandel for denne husforsikringen",
+      "name": "egenandel"
+    },
+    {
       "type": "Boligstandard",
       "name": "standard"
     },
