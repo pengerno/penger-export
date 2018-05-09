@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "name": "AarligKjoerelengde",
+  "doc":
+    "Årlig kjørelengde for en bil gitt i km. Ett og bare ett av feltene 'km' og 'ubegrenset' skal være satt.",
+  "namespace": "no.penger.export.domain.bilforsikring",
+  "fields": [
+    {
+      "type": ["null", "int"],
+      "name": "km"
+    },
+    {
+      "type": ["null", "boolean"],
+      "name": "ubegrenset"
+    }
+  ]
+}
