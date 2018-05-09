@@ -14,7 +14,7 @@
       "name": "bonus"
     },
     {
-      "type": "int",
+      "type": "AarligKjoerelengde",
       "name": "aarligKjoerelengde"
     },
 
