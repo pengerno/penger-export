@@ -13,8 +13,6 @@ To provide a versioned and described data format for exchanging data with extern
 
 ### Boliglån
 
-Currently work-in-progress data model for Boliglån
-
 * Schema: [`src/main/avro/boliglan.avsc`](src/main/avro/boliglan.avsc)
 * Example: [`src/test/resources/boliglan-example.json`](src/test/resources/boliglan-example.json)
 
@@ -22,6 +20,11 @@ Currently work-in-progress data model for Boliglån
 
 * Schema: [`src/main/avro/utleieforsikring.avsc`](src/main/avro/utleieforsikring.avsc)
 * Example: [`src/test/resources/utleieforsikring-example.json`](src/test/resources/utleieforsikring-example.json)
+
+### Forsikringspakke
+
+* Schema: [`src/main/avro/forsikringspakke.avsc`](src/main/avro/forsikringspakke.avsc)
+* Example: [`src/test/resources/forsikringspakke-example.json`](src/test/resources/forsikringspakke-example.json)
 
 ## Consuming data
 
