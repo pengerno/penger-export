@@ -1,0 +1,156 @@
+{
+  "kundereferanse": "M18IN1507B",
+  "profiler": [
+    {
+      "fornavn": {
+        "string": "Ola"
+      },
+      "etternavn": {
+        "string": "Nordmann"
+      },
+      "rolle": "APPLICANT",
+      "statsborgerskap": null,
+      "fodeland": null,
+      "fodselsdato": {
+        "string": "1986-07-07"
+      },
+      "fodselsnummer": {
+        "string": "07078613992"
+      },
+      "kjonn": "MANN",
+      "epost": {
+        "string": "ola.nordmann@test.no"
+      },
+      "adresse": {
+        "string": "Hønsehaugen 3"
+      },
+      "postnummer": {
+        "string": "0470"
+      },
+      "mobil": {
+        "no.penger.export.domain.Mobilnummer": {
+          "nummer": "81549300",
+          "landskode": "+47"
+        }
+      },
+      "biler": 1,
+      "boforhold": "UKJENT",
+      "sivilstatus": "UKJENT",
+      "barn": 0,
+      "barnUnderTiAar": 0,
+      "barnFraTiAar": 0,
+      "inntekt": [],
+      "utgift": [],
+      "gjeld": [],
+      "fagforeninger": []
+    }
+  ],
+  "markedsplass": "PENGER",
+  "bil": {
+    "array": [
+      {
+        "bil": {
+          "registreringsnummer": {
+            "string": "DN12345"
+          },
+          "registreringsaar": 2008,
+          "merke": "Subaru",
+          "modell": "Impreza",
+          "variant": "2.0R Sport AUT MV/74 150 HK ( Combi-Coupè, 5 dører )",
+          "motorstoerrelse": 2
+        },
+        "bonus": {
+          "prosent": 70,
+          "antallAarFra": {
+            "int": 5
+          },
+          "antallAarTil": {
+            "int": 5
+          }
+        },
+        "aarligKjoerelengde": {
+          "km": {
+            "int": 12000
+          },
+          "ubegrenset": null
+        },
+        "egenandel": {
+          "verdi": 4000,
+          "display_value": "4 000"
+        },
+        "yngsteSjaafoerAlderUnder25": {
+          "int": 0
+        },
+        "parkering": "EGEN_LAAST_GARASJE",
+        "type": "ANSVAR",
+        "harBillaan": true,
+        "tyverialarm": true,
+        "antiskrens": false,
+        "gjenfinningssystem": true
+      }
+    ]
+  },
+  "husInnbo": {
+    "no.penger.export.domain.forsikringspakke.HusInnboforsikring": {
+      "felles": {
+        "hustype": "ENEBOLIG",
+        "byggemaate": "TRE",
+        "innbruddsalarm": "VARSLER_MOBILTELEFON",
+        "brannalarm": "VARSLER_VAKTSELSKAP",
+        "vannalarm": "VARSLER_VAKTSELSKAP",
+        "elektriskeInspisert": "JA_SISTE_5",
+        "elektriskeRenovert": {
+          "int": 2007
+        },
+        "roerRenovert": {
+          "int": 2006
+        },
+        "husstandMedlemmer": 5,
+        "utleidDel": "HELE",
+        "laassikring": false,
+        "vannstoppventil": true,
+        "overspenningsvern": true,
+        "komfyralarm": true,
+        "borSelv": true,
+        "borRoeykere": false
+      },
+      "hus": null,
+      "innbo": {
+        "no.penger.export.domain.forsikringspakke.Innboforsikring": {
+          "egenandel": {
+            "verdi": 8000,
+            "display_value": "8 000"
+          },
+          "beloep": {
+            "verdi": 750000,
+            "display_value": "750 000"
+          },
+          "bakkeplan": true,
+          "egenInngang": false,
+          "romUnderBakken": false,
+          "oppholdsromUnderBakken": {
+            "boolean": false
+          }
+        }
+      }
+    }
+  },
+  "reise": {
+    "no.penger.export.domain.forsikringspakke.Reiseforsikring": {
+      "omfang": "FAMILIE"
+    }
+  },
+  "tilbud": {
+    "tilbydernavn": "nemi",
+    "tilbudsnavn": "Forsikringspakke"
+  },
+  "kredittVerdig": true,
+  "mottatt": {
+    "iso8601": "2018-05-30T12:18:28.181+02:00",
+    "display_value": "30.mai.2018 12:18:28"
+  },
+  "ansattIKommuneEllerHelsesektor": false,
+  "hovedforsikringsSelskap": {
+    "string": "Nemi"
+  }
+}
