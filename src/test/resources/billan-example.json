@@ -10,13 +10,13 @@
       },
       "rolle": "APPLICANT",
       "fodeland": {
-        "no.penger.export.domain.Country":{
-          "iso3166":"GBR"
+        "no.penger.export.domain.Country": {
+          "iso3166": "GBR"
         }
       },
       "statsborgerskap": {
-        "no.penger.export.domain.Country":{
-          "iso3166":"NOR"
+        "no.penger.export.domain.Country": {
+          "iso3166": "NOR"
         }
       },
       "fodselsdato": {
@@ -51,27 +51,22 @@
         {
           "key": "SelvstendigNaering",
           "arlig_inntekt": {
-            "verdi": 100000,
-            "display_value": " 100 000"
+            "verdi": 100000
           },
           "ansatt_antall_ar": null,
           "arbeidsgiver": {
             "string": "Foobar"
-          },
-          "display_value": "Selvstendig næringsdrivende (ENK)"
+          }
         }
       ],
       "gjeld": [
         {
           "key": "Studielan",
           "belop": {
-            "verdi": 10,
-            "display_value": "10"
+            "verdi": 10
           },
           "rente": null,
-          "gjenstaende_ar": null,
-          "display_value": "Studielån"
-
+          "gjenstaende_ar": null
         }
       ],
       "utgift": [],
@@ -83,19 +78,17 @@
     }
   ],
   "markedsplass": "PENGER",
-  "tilbud":{
-    "tilbydernavn":"banknavn",
-    "tilbudsnavn":"Billån for unge"
+  "tilbud": {
+    "tilbydernavn": "banknavn",
+    "tilbudsnavn": "Billån for unge"
   },
   "gjenpartsbrev": "ELEKTRONISK",
   "pris": {
-    "verdi": 10,
-    "display_value": "10"
+    "verdi": 10
   },
   "nedbetalingstid": 10,
   "egenkapital": {
-    "verdi": 10,
-    "display_value": "10"
+    "verdi": 10
   },
   "finnkode": {
     "string": "112121"

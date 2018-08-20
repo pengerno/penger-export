@@ -9,13 +9,13 @@
     },
     "rolle": "APPLICANT",
     "fodeland": {
-      "no.penger.export.domain.Country":{
-        "iso3166":"GBR"
+      "no.penger.export.domain.Country": {
+        "iso3166": "GBR"
       }
     },
     "statsborgerskap": {
-      "no.penger.export.domain.Country":{
-        "iso3166":"NOR"
+      "no.penger.export.domain.Country": {
+        "iso3166": "NOR"
       }
     },
     "fodselsdato": {
@@ -48,9 +48,9 @@
     "fagforeninger": []
   },
   "gjenpartsbrev": "ELEKTRONISK",
-  "tilbud":{
-    "tilbydernavn":"banknavn",
-    "tilbudsnavn":"Utleieforsikring under 40m2"
+  "tilbud": {
+    "tilbydernavn": "banknavn",
+    "tilbudsnavn": "Utleieforsikring under 40m2"
   },
   "utleietype": "MOBLERT",
   "adresse": "foobar",
@@ -59,18 +59,15 @@
   },
   "kvadratmeter": 10,
   "maanedsleie": {
-    "verdi": 100,
-    "display_value": "100"
+    "verdi": 100
   },
   "leiesUtFra": "2017-12-03",
   "kredittVerdig": true,
   "mottatt": {
-    "iso8601": "2017-12-04T11:05:28.954+01:00",
-    "display_value": "04.des.2017 11:05:28"
+    "iso8601": "2017-12-04T11:05:28.954+01:00"
   },
   "aarspris": {
-    "verdi": 828,
-    "display_value": "828"
+    "verdi": 828
   },
   "finnkode": {
     "kode": "8181818"

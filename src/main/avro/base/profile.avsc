@@ -182,10 +182,6 @@
                 "int"
               ],
               "default": null
-            },
-            {
-              "name": "display_value",
-              "type": "string"
             }
           ]
         }
@@ -211,10 +207,6 @@
               "name": "arlig_utgift",
               "doc": "Årlig utgift for denne utgiftstypen",
               "type": "no.penger.export.domain.NOK"
-            },
-            {
-              "name": "display_value",
-              "type": "string"
             }
           ]
         }
@@ -258,10 +250,6 @@
                 "int"
               ],
               "default": null
-            },
-            {
-              "name": "display_value",
-              "type": "string"
             }
           ]
         }
