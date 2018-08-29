@@ -7,10 +7,6 @@
     {
       "name": "iso8601",
       "type": "string"
-    },
-    {
-      "name": "display_value",
-      "type": "string"
     }
   ]
 }

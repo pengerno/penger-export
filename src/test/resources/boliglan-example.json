@@ -10,13 +10,13 @@
       },
       "rolle": "APPLICANT",
       "fodeland": {
-        "no.penger.export.domain.Country":{
-          "iso3166":"GBR"
+        "no.penger.export.domain.Country": {
+          "iso3166": "GBR"
         }
       },
       "statsborgerskap": {
-        "no.penger.export.domain.Country":{
-          "iso3166":"NOR"
+        "no.penger.export.domain.Country": {
+          "iso3166": "NOR"
         }
       },
       "fodselsdato": {
@@ -51,12 +51,10 @@
         {
           "key": "Arbeidstaker",
           "arlig_inntekt": {
-            "verdi": 450000,
-            "display_value": "450 000"
+            "verdi": 450000
           },
           "arbeidsgiver": null,
-          "ansatt_antall_ar": null,
-          "display_value": "Arbeidstaker"
+          "ansatt_antall_ar": null
         }
       ],
       "utgift": [],
@@ -64,12 +62,10 @@
         {
           "key": "Studielan",
           "belop": {
-            "verdi": 300000,
-            "display_value": "300 000"
+            "verdi": 300000
           },
           "rente": null,
-          "gjenstaende_ar": null,
-          "display_value": "Studielån"
+          "gjenstaende_ar": null
         }
       ],
       "fagforeninger": [
@@ -86,8 +82,8 @@
         "string": "Nordmann"
       },
       "rolle": "CO_APPLICANT",
-      "fodeland" : null,
-      "statsborgerskap" : null,
+      "fodeland": null,
+      "statsborgerskap": null,
       "fodselsdato": {
         "string": "1985-10-18"
       },
@@ -109,12 +105,10 @@
         {
           "key": "Student",
           "arlig_inntekt": {
-            "verdi": 100000,
-            "display_value": "100 000"
+            "verdi": 100000
           },
           "arbeidsgiver": null,
-          "ansatt_antall_ar": null,
-          "display_value": "Student"
+          "ansatt_antall_ar": null
         }
       ],
       "utgift": [],
@@ -123,18 +117,16 @@
     }
   ],
   "markedsplass": "FINN",
-  "tilbud":{
-    "tilbydernavn":"banknavn",
-    "tilbudsnavn":"Boliglån for unge"
+  "tilbud": {
+    "tilbydernavn": "banknavn",
+    "tilbudsnavn": "Boliglån for unge"
   },
   "nedbetalingstid": 25,
   "egenkapital": {
-    "verdi": 500000,
-    "display_value": "500 000"
+    "verdi": 500000
   },
   "laanesum": {
-    "verdi": 0,
-    "display_value": "0"
+    "verdi": 0
   },
   "laanetype": "Lån",
   "eiendom": null,
@@ -142,12 +134,10 @@
   "vedlegg": [],
   "kredittVerdig": true,
   "anbefaltLaan": {
-    "verdi": 10000,
-    "display_value": "10 000"
+    "verdi": 10000
   },
   "belaaningsGrad": 85.2,
   "mottatt": {
-    "iso8601": "2017-12-04T08:43:54.956Z",
-    "display_value": "04. desember, 2017"
+    "iso8601": "2017-12-04T08:43:54.956Z"
   }
 }

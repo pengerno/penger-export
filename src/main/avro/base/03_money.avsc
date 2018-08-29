@@ -7,10 +7,6 @@
     {
       "name": "verdi",
       "type": "double"
-    },
-    {
-      "name": "display_value",
-      "type": "string"
     }
   ]
 }

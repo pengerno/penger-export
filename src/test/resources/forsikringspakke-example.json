@@ -75,8 +75,7 @@
           "ubegrenset": null
         },
         "egenandel": {
-          "verdi": 4000,
-          "display_value": "4 000"
+          "verdi": 4000
         },
         "yngsteSjaafoerAlderUnder25": {
           "int": 0
@@ -118,12 +117,10 @@
       "innbo": {
         "no.penger.export.domain.forsikringspakke.Innboforsikring": {
           "egenandel": {
-            "verdi": 8000,
-            "display_value": "8 000"
+            "verdi": 8000
           },
           "beloep": {
-            "verdi": 750000,
-            "display_value": "750 000"
+            "verdi": 750000
           },
           "bakkeplan": true,
           "egenInngang": false,
@@ -146,8 +143,7 @@
   },
   "kredittVerdig": true,
   "mottatt": {
-    "iso8601": "2018-05-30T12:18:28.181+02:00",
-    "display_value": "30.mai.2018 12:18:28"
+    "iso8601": "2018-05-30T12:18:28.181+02:00"
   },
   "ansattIKommuneEllerHelsesektor": false,
   "hovedforsikringsSelskap": {
