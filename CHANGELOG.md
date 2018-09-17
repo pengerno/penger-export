@@ -9,3 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.0.0] - 2018-07-11
 ### Changed
 - `GjeldKey`, `InntektKey` and `UtgiftKey` in `no.penger.export.domain.Profil` changed from `enum` to `string`.
+
+## [1.1.0] - 2018-08-29
+### Changed
+- Removed all `display_value` fields.
