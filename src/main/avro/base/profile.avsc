@@ -157,7 +157,7 @@
               "name": "key",
               "type": {
                 "type": "string",
-                "doc": "Gyldige verdier: Arbeidsledig, Arbeidstaker, Barnebidrag, SelvstendigNaering, Midlertidig, Pensjonist, Student, SkattefrieLeieinntekter, NaeringsInntekter, OvrigeInntekter, Uspesifisert. Konsumenter må kunne håndtere at det dukker opp nye ukjente verdier her.",
+                "doc": "Gyldige verdier: Arbeidsledig, Arbeidstaker, Barnebidrag, SelvstendigNaering, Midlertidig, Pensjonist, Student, SkattefrieLeieinntekter, NaeringsInntekter, Ufoer, OvrigeInntekter, Uspesifisert. Konsumenter må kunne håndtere at det dukker opp nye ukjente verdier her.",
                 "name": "InntektKey"
               }
             },
