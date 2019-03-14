@@ -75,6 +75,10 @@
       "name": "mottatt",
       "type": "no.penger.export.domain.Tidspunkt",
       "doc": "Tidspunkt for når søknaden ble mottatt"
+    },
+    {
+      "name": "egenkapitalFraBoligsalg",
+      "type": ["null", "no.penger.export.domain.NOK"]
     }
   ]
 }

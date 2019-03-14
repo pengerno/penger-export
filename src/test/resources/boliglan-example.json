@@ -139,5 +139,7 @@
   "belaaningsGrad": 85.2,
   "mottatt": {
     "iso8601": "2017-12-04T08:43:54.956Z"
-  }
+  },
+  "oppsparteMidler": null,
+  "egenkapitalFraBoligsalg": null
 }

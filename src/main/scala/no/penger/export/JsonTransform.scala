@@ -14,7 +14,8 @@ object JsonTransform {
     val in    = new ByteArrayInputStream(json.getBytes(CHARSET))
     val input = AvroInputStream.json[T](in)
     input.close()
-    input.singleEntity.toEither.left.map(t => JsonError(t.getMessage))
+    val baktemp = input.singleEntity.toEither.left.map(t => JsonError(t.getMessage))
+    baktemp
   }
 
   def entityToJson[T](entity: T)(implicit s: SchemaFor[T], r: ToRecord[T]): String = {
