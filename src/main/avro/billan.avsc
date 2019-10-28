@@ -141,6 +141,35 @@
         ],
         "default": "PERSONBIL"
       }
+    },
+    {
+      "name": "paaVegneAvAnnen",
+      "doc": "Ja, dersom søknaden er fylt inn av en annen person enn den som skal betjene lånet.",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "name": "paaVegneAv",
+      "doc": "Informasjon om personen som skal betjene lånet, dersom søknaden er fylt inn av noen andre.",
+      "type": [
+        "null",
+        {
+          "name": "BillanPaaVegneAv",
+          "namespace": "no.penger.export",
+          "type": "record",
+          "fields": [
+            {
+              "name": "navn",
+              "type": "string"
+            },
+            {
+              "name": "fodselsnummer",
+              "type": "string"
+            }
+          ]
+        }
+      ],
+      "default": null
     }
   ]
 }
