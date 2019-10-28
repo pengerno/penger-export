@@ -145,8 +145,8 @@
     {
       "name": "paaVegneAvAnnen",
       "doc": "Ja, dersom søknaden er fylt inn av en annen person enn den som skal betjene lånet.",
-      "type": "boolean",
-      "default": false
+      "type": ["null", "boolean"],
+      "default": null
     },
     {
       "name": "paaVegneAv",
