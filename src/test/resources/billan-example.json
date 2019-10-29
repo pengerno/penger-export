@@ -121,7 +121,7 @@
   },
   "paaVegneAv": {
     "no.penger.export.BillanPaaVegneAv": {
-      "navn": "Ola Nordmann",
+      "fulltNavn": "Ola Nordmann",
       "fodselsnummer": "22068314538"
     }
   }

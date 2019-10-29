@@ -159,7 +159,7 @@
           "type": "record",
           "fields": [
             {
-              "name": "navn",
+              "name": "fulltNavn",
               "type": "string"
             },
             {
