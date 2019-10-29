@@ -115,5 +115,14 @@
   },
   "boddINorgeSiste5Aar": true,
   "politiskEksponertPerson": false,
-  "kjoretoyType": "PERSONBIL"
+  "kjoretoyType": "PERSONBIL",
+  "paaVegneAvAnnen": {
+    "boolean": true
+  },
+  "paaVegneAv": {
+    "no.penger.export.BillanPaaVegneAv": {
+      "fulltNavn": "Ola Nordmann",
+      "fodselsnummer": "22068314538"
+    }
+  }
 }

@@ -8,6 +8,8 @@ scala:
 jdk:
   - oraclejdk8
 
+dist: trusty
+
 env:
   matrix:
   - COURSIER_CACHE=$TRAVIS_BUILD_DIR/project/.ivy/coursier
