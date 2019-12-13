@@ -31,5 +31,6 @@ lazy val P = (project in file(".")).settings(
   organization := "no.penger",
   name := "export",
   description := "Exported models from Penger.no",
-  scalaVersion := "2.12.3"
+  scalaVersion := "2.13.1",
+  crossScalaVersions := Seq("2.13.1", "2.12.10")
 )

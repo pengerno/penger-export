@@ -10,19 +10,26 @@ object JsonTransform {
 
   private val CHARSET = "UTF-8"
 
-  def jsonToEntity[T](json: String)(implicit s: SchemaFor[T], r: FromRecord[T]): Either[JsonError, T] = {
+  def jsonToEntity[T](json: String)(implicit s: SchemaFor[T], d: Decoder[T]): Either[JsonError, T] = {
     val in    = new ByteArrayInputStream(json.getBytes(CHARSET))
-    val input = AvroInputStream.json[T](in)
+
+    val input = AvroInputStream.json[T].from(in).build(AvroSchema[T])
+    val entities = input.iterator.toVector
     input.close()
-    input.singleEntity.toEither.left.map(t => JsonError(t.getMessage))
+
+    entities.headOption.toRight(JsonError("No avro fodun"))
   }
 
-  def entityToJson[T](entity: T)(implicit s: SchemaFor[T], r: ToRecord[T]): String = {
+  def entityToJson[T](entity: T)(implicit s: SchemaFor[T], d: Encoder[T]): String = {
     val baos   = new ByteArrayOutputStream()
-    val output = AvroOutputStream.json[T](baos)
-    output.write(entity)
-    output.close()
-    baos.toString(CHARSET)
+
+    val os = AvroOutputStream.json[T].to(baos).build(AvroSchema[T])
+    os.write(entity)
+    os.close()
+
+    val json = baos.toString(CHARSET)
+    baos.close()
+    json
   }
 
 }
