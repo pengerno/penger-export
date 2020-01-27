@@ -52,12 +52,10 @@
     "tilbydernavn": "banknavn",
     "tilbudsnavn": "Utleieforsikring under 40m2"
   },
-  "utleietype": "MOBLERT",
   "adresse": "foobar",
   "postnummer": {
     "string": "5470"
   },
-  "kvadratmeter": 10,
   "maanedsleie": {
     "verdi": 100
   },
