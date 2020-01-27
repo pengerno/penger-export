@@ -23,18 +23,6 @@
       "type": "no.penger.export.domain.Gjenpartsbrev"
     },
     {
-      "name": "utleietype",
-      "doc": "Om objektet er møblert eller ikke",
-      "type": {
-        "type": "enum",
-        "name": "Utleietype",
-        "symbols": [
-          "MOBLERT",
-          "UMOBLERT"
-        ]
-      }
-    },
-    {
       "name": "adresse",
       "doc": "Adressen til leieobjektet",
       "type": "string"
@@ -43,11 +31,6 @@
       "name": "postnummer",
       "doc": "Postnummeret til leieobjektet",
       "type": ["null", "string"]
-    },
-    {
-      "name": "kvadratmeter",
-      "doc": "Kvadratmeter på leieobjektet",
-      "type": "int"
     },
     {
       "name": "maanedsleie",
